@@ -52,7 +52,7 @@ color:rgb(128, 151, 213);
 
 .bronnen-vlak { 
 height: auto;
-background-color: #9d03d9;
+background-color: #9b04d7;
 padding: 5px 10px 15px 15px;
 border-radius: 5px;
 margin-left: 0px;
@@ -78,7 +78,7 @@ padding-left: 0px;
 
 .bronnen-vlak-afwijkend { 
 height: auto;
-background-color: #9d03d9;
+background-color: #9b04d7;
 padding: 5px 10px 15px 15px;
 border-radius: 5px;
 margin-left: 0px;
@@ -103,8 +103,9 @@ height: auto;
 width: 300px;
 height: auto;
 padding: 20px;
+background-color: rgb(218, 124, 1);
 }
 
 h2 {
-    margin-top: 0px;
+margin-top: 0px;
 }
