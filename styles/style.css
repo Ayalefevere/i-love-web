@@ -1,1 +1,110 @@
+.menustructuur { 
+display: flex;
+gap: 30px;
+justify-content: end;
+list-style: none;
+height: 50px;
+align-items: center;
+margin: 40px 10px 0px 0px;
+font-size: 16px;
+}
 
+li a {
+    background-color: rgb(235, 197, 239);
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+h1 {
+margin-top: -40px;
+margin-bottom: 50px;
+}
+
+body { 
+background-color: lightblue;
+font-family: verdana;
+margin: 20px 30px 50px 50px;
+}
+
+div { 
+background-color: rgb(208, 37, 37);
+padding: 10px 20px 10px 20px;
+border-radius: 5px;
+margin-bottom: 40px;
+color: white;
+}
+
+li a:link {
+    text-decoration: none;
+    color: rgb(45, 3, 145);
+ }
+
+ li a:visited {
+color: rgb(50, 2, 163);
+ }
+
+/* deze link tag hoort bij bronnen van 2-09 */
+a {
+color:rgb(128, 151, 213);
+
+}
+
+.bronnen-vlak { 
+height: auto;
+background-color: #9d03d9;
+padding: 5px 10px 15px 15px;
+border-radius: 5px;
+margin-left: 0px;
+width: 500px;
+margin-bottom: 0px;
+}
+
+.bronnen-vlak li a, a:visited {
+background-color: transparent;
+color:rgb(130, 163, 255);
+}
+
+.bronnen-vlak h3 {
+padding-left: 15px;
+}
+
+.vlakken { 
+display: flex;
+gap:50px;
+background-color: transparent;
+padding-left: 0px;
+}
+
+.bronnen-vlak-afwijkend { 
+height: auto;
+background-color: #9d03d9;
+padding: 5px 10px 15px 15px;
+border-radius: 5px;
+margin-left: 0px;
+width: 1410px;
+}
+
+.bronnen-vlak-afwijkend li a, a:visited {
+background-color: transparent;
+color:rgb(130, 163, 255);
+}
+
+.bronnen-vlak-afwijkend h3 {
+padding-left: 15px;
+}
+
+img {
+width: 300px;
+height: auto;
+}
+
+.foto {
+width: 300px;
+height: auto;
+padding: 20px;
+}
+
+h2 {
+    margin-top: 0px;
+}
