@@ -62,7 +62,7 @@ margin-bottom: 0px;
 
 .bronnen-vlak li a, a:visited {
 background-color: transparent;
-color:rgb(130, 163, 255);
+color:#a3deef;
 }
 
 .bronnen-vlak h3 {
@@ -87,7 +87,7 @@ width: 1410px;
 
 .bronnen-vlak-afwijkend li a, a:visited {
 background-color: transparent;
-color:rgb(130, 163, 255);
+color:#a3deef;
 }
 
 .bronnen-vlak-afwijkend h3 {
