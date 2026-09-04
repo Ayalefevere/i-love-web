@@ -121,6 +121,13 @@
         height: auto;
         }
 
+    /* Container fotocollage */
+        .fotocollage {
+        display: flex;
+        background-color: transparent;
+        gap: 50px;
+        margin-left: -20px;
+        }
 
     /* Container van de foto  */
         .foto {
