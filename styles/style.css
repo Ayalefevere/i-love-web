@@ -1,111 +1,136 @@
-.menustructuur { 
-display: flex;
-gap: 30px;
-justify-content: end;
-list-style: none;
-height: 50px;
-align-items: center;
-margin: 40px 10px 0px 0px;
-font-size: 16px;
-}
+/* Dit zit door de hele website heen en op alle pagina's */
+    /* Dit is de menu in de header */
+        .menustructuur { 
+        display: flex;
+        gap: 30px;
+        justify-content: end;
+        list-style: none;
+        height: 50px;
+        align-items: center;
+        margin: 40px 10px 0px 0px;
+        font-size: 16px;
+        }
 
-li a {
-    background-color: rgb(235, 197, 239);
-    border-radius: 5px;
-    padding: 10px;
-    text-align: center;
-}
+    /* Tekst kleur in de menustrustuur */
+        li a:link {
+        text-decoration: none;
+        color: rgb(45, 3, 145);
+        }
 
-h1 {
-margin-top: -40px;
-margin-bottom: 50px;
-}
+        li a:visited {
+        color: rgb(50, 2, 163);
+        }
 
-body { 
-background-color: lightblue;
-font-family: verdana;
-margin: 20px 30px 50px 50px;
-}
+    /* Titel van de pagina's */
+        h1 {
+        margin-top: -40px;
+        margin-bottom: 50px;
+        }
 
-div { 
-background-color: rgb(208, 37, 37);
-padding: 10px 20px 10px 20px;
-border-radius: 5px;
-margin-bottom: 40px;
-color: white;
-}
+    /* Styling van de hele pagina's */
+        body { 
+        background-color: lightblue;
+        font-family: verdana;
+        margin: 20px 30px 50px 50px;
+        }
 
-li a:link {
-    text-decoration: none;
-    color: rgb(45, 3, 145);
- }
+/* Blogpagina */
+    /* Teksten van de list op de blog pagina */
+        li a {
+        background-color: rgb(235, 197, 239);
+        border-radius: 5px;
+        padding: 10px;
+        text-align: center;
+        }
 
- li a:visited {
-color: rgb(50, 2, 163);
- }
+    /* Verslag blokje op de blog pagina */
+        div { 
+        background-color: rgb(208, 37, 37);
+        padding: 10px 20px 10px 20px;
+        border-radius: 5px;
+        margin-bottom: 40px;
+        color: white;
+        }
 
-/* deze link tag hoort bij bronnen van 2-09 */
-a {
-color:rgb(128, 151, 213);
+    /* Deze link tag hoort bij bronnen van 2-09 */
+        a {
+        color:rgb(128, 151, 213);
+        }
 
-}
+/* Bronnen pagina */
+    /* De container van HTML, CSS en JS vlak in bronnen pagina */
+        .vlakken { 
+        display: flex;
+        gap:50px;
+        background-color: transparent;
+        padding-left: 0px;
+        }
 
-.bronnen-vlak { 
-height: auto;
-background-color: #9b04d7;
-padding: 5px 10px 15px 15px;
-border-radius: 5px;
-margin-left: 0px;
-width: 500px;
-margin-bottom: 0px;
-}
+        /* Het vlak van HTML, CSS en JS in bronnen pagina */
+            .bronnen-vlak { 
+            height: auto;
+            background-color: #9b04d7;
+            padding: 5px 10px 15px 15px;
+            border-radius: 5px;
+            margin-left: 0px;
+            width: 500px;
+            margin-bottom: 0px;
+            flex-wrap: wrap;
+            min-width: 200px;
+            max-width: 500px;
+            }
 
-.bronnen-vlak li a, a:visited {
-background-color: transparent;
-color:#a3deef;
-}
+        /* De links in bronnenvlak */
+            .bronnen-vlak li a, a:visited {
+            background-color: transparent;
+            color:#a3deef;
+            }
 
-.bronnen-vlak h3 {
-padding-left: 15px;
-}
+        /* Kopje in bronnen vlak */
+            .bronnen-vlak h3 {
+            padding-left: 15px;
+            }
 
-.vlakken { 
-display: flex;
-gap:50px;
-background-color: transparent;
-padding-left: 0px;
-}
+    /* Bronnenvlak van het stukje Overig. Deze is afwijkende grootte  */
+        .bronnen-vlak-afwijkend { 
+        height: auto;
+        background-color: #9b04d7;
+        padding: 5px 10px 15px 15px;
+        border-radius: 5px;
+        margin-left: 0px;
+        flex-wrap: wrap;
+        min-width: 700px;
+        max-width: 1410px
+        }
 
-.bronnen-vlak-afwijkend { 
-height: auto;
-background-color: #9b04d7;
-padding: 5px 10px 15px 15px;
-border-radius: 5px;
-margin-left: 0px;
-width: 1410px;
-}
+    /* Links in de afwijkende bronnen vlak Overig  */
+        .bronnen-vlak-afwijkend li a, a:visited {
+        background-color: transparent;
+        color:#a3deef;
+        }
 
-.bronnen-vlak-afwijkend li a, a:visited {
-background-color: transparent;
-color:#a3deef;
-}
+    /* Kopje in afwijkende bronnen vlak  */
+        .bronnen-vlak-afwijkend h3 {
+        padding-left: 15px;
+        }
 
-.bronnen-vlak-afwijkend h3 {
-padding-left: 15px;
-}
+/* Foto pagina */
+    /* Foto grootte van de image */
+        img {
+        width: 300px;
+        height: auto;
+        }
 
-img {
-width: 300px;
-height: auto;
-}
 
-.foto {
-width: 300px;
-height: auto;
-padding: 20px;
-background-color: rgb(218, 124, 1);
-}
+    /* Container van de foto  */
+        .foto {
+        width: 300px;
+        height: 470px;
+        padding: 20px;
+        background-color: rgb(218, 124, 1);
+        }
 
-h2 {
-margin-top: 0px;
-}
+    /* Kopje van de foto conatainer */
+        h3 {
+        margin-top: 0px;
+        }
