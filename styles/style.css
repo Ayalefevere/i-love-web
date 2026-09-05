@@ -43,12 +43,12 @@
         text-align: center;
         }
 
-    /* Verslag blokje op de blog pagina */
+    /* Dagverslag blokje op de blog pagina */
         div { 
         background-color: rgb(208, 37, 37);
         padding: 10px 20px 10px 20px;
         border-radius: 5px;
-        margin-bottom: 40px;
+        margin-bottom: 30px;
         color: white;
         }
 
@@ -103,16 +103,16 @@
         max-width: 1410px
         }
 
-    /* Links in de afwijkende bronnen vlak Overig  */
-        .bronnen-vlak-afwijkend li a, a:visited {
-        background-color: transparent;
-        color:#a3deef;
-        }
+        /* Links in de afwijkende bronnen vlak Overig  */
+            .bronnen-vlak-afwijkend li a, a:visited {
+            background-color: transparent;
+            color:#a3deef;
+            }
 
-    /* Kopje in afwijkende bronnen vlak  */
-        .bronnen-vlak-afwijkend h3 {
-        padding-left: 15px;
-        }
+        /* Kopje in afwijkende bronnen vlak  */
+            .bronnen-vlak-afwijkend h3 {
+            padding-left: 15px;
+            }
 
 /* Foto pagina */
     /* Foto grootte van de image */
@@ -129,6 +129,11 @@
         margin-left: -20px;
         }
 
+    /* Kopje van de foto conatainer */
+        h3 {
+        margin-top: 0px;
+        }
+
     /* Container van de foto  */
         .foto {
         width: 300px;
@@ -137,7 +142,9 @@
         background-color: rgb(218, 124, 1);
         }
 
-    /* Kopje van de foto conatainer */
-        h3 {
-        margin-top: 0px;
+    /* De grootte van de image */
+        img {
+        height: auto;
+        width: 300px;
         }
+
