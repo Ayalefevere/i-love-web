@@ -1,3 +1,23 @@
+/* Styling voor de hele pagina */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(208, 235, 246);
+    margin:0px;
+    }
+
+/* De styling van onder de header     */
+main {
+    margin-left:auto;
+    margin-right: auto;
+    max-width: 1200px;
+}
+
+/* Titel van de pagina's */
+    h1 {
+    margin-bottom: 50px;
+    }
+
+
 /* Header */
 /* Dit is de header met logo foto en navigatiemenu */
     header {
@@ -47,11 +67,6 @@
         font-size: 100px;
         }
 
-    /* Styling van de hele pagina's */
-        body { 
-        background-color: lightblue;
-        font-family: verdana;
-        margin: 20px 30px 50px 50px;
         }
 
 /* Blogpagina */
