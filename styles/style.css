@@ -71,35 +71,25 @@
 /* Bronnen pagina */
     /* De container van HTML, CSS en JS vlak in bronnen pagina */
         .vlakken { 
-        display: flex;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
         gap:50px;
         background-color: transparent;
-        padding-left: 0px;
         }
 
         /* Het vlak van HTML, CSS en JS in bronnen pagina */
             .bronnen-vlak { 
             height: auto;
-            background-color: #9b04d7;
+            background-color: #b41fef;
             padding: 5px 10px 15px 15px;
             border-radius: 5px;
-            margin-left: 0px;
-            width: 500px;
-            margin-bottom: 0px;
-            flex-wrap: wrap;
-            min-width: 200px;
-            max-width: 500px;
-            }
-
-        /* De links in bronnenvlak */
-            .bronnen-vlak li a, a:visited {
-            background-color: transparent;
-            color:#a3deef;
             }
 
         /* Kopje in bronnen vlak */
             .bronnen-vlak h3 {
+            padding-top: 15px;
             padding-left: 15px;
+            color: rgb(255, 255, 255);
             }
 
     /* Bronnenvlak van het stukje Overig. Deze is afwijkende grootte  */
