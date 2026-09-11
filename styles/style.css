@@ -142,11 +142,19 @@
         padding: 20px;
         background-color: rgb(218, 124, 1);
         }
+footer {
+height: 50px;
+    border-top:1px solid lightgrey;
+    background-color: #ffffff;
+    }
 
     /* De grootte van de image */
         img {
         height: auto;
         width: 300px;
         }
+    footer p {
+        font-size: 14px;
+        padding-left:50px;
 
         }
