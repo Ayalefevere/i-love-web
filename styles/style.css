@@ -1,10 +1,21 @@
-/* Dit zit door de hele website heen en op alle pagina's */
-    /* Dit is de menu in de header */
-        .menustructuur { 
-        display: flex;
-        gap: 30px;
-        justify-content: end;
-        list-style: none;
+/* Header */
+/* Dit is de header met logo foto en navigatiemenu */
+    header {
+    display: flex;
+    background-color: rgb(238, 238, 237);
+    height: 70px;
+    padding-left: 15px;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgrey;
+    align-items: center;
+    padding-left: 70px;
+    padding-right: 70px;
+    margin-bottom: 50px;
+    }
+
+    /* Logo styling */
+        .logo img {
+        width: auto;
         height: 50px;
         align-items: center;
         margin: 40px 10px 0px 0px;
@@ -148,3 +159,4 @@
         width: 300px;
         }
 
+        }
