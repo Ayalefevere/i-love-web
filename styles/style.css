@@ -47,6 +47,14 @@ main {
         text-decoration: none;
         color: rgb(45, 3, 145);
         }
+/* Home */
+
+.introductie {
+    font-weight: bold;
+    margin-left: -160px;
+    margin-bottom: 50px;
+}
+
     .intro {
     margin-left:-160px;
     margin-right:-160px;
