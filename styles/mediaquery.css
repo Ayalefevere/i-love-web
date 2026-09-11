@@ -1,0 +1,33 @@
+body {
+background-color: lightblue;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    @media (min-width: 1000px) {
+        background: yellow;
+    }
+
+}
+
+.container {
+    background-color: aqua;
+}
+
+/* Media geeft de mediaquery aan. de min width is vanaf welke minimale het 
+moet veranderden dus bij een groot scherm kan het een grid of flexbox zijn en mobiel onder elkaar. Je begint klein. */
+@media (min-width:350px) {
+  .container { 
+    height: 80px;
+    }
+  }
+
+ @media (min-width:1000px) {
+  .container { 
+    height: 55px;
+    }
+  }
+
+    @media (min-width: 1300px) {
+  .container {
+height: 50px;
+  }
+}
