@@ -98,6 +98,32 @@ main {
         font-size: 100px;
         }
 
+    .voorstellen {
+    margin-left:-160px;
+    margin-right:-160px;    
+    display: flex;
+    gap: 50px;
+    border-bottom: 1px solid grey;
+    background-color: white;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+
+    }
+
+    .voorstellen h2, p {
+        padding-left: 160px;
+        padding-top: 40px;
+    }
+
+    .voorstellen p {
+        font-size: 20px;
+    }
+
+        .voorstellen img {
+            height: 400px;
+            width: auto;
+            padding-right: 200px;
+            padding-top: 50px;
         }
 
 /* Blogpagina */
