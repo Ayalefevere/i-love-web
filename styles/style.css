@@ -281,26 +281,20 @@ main {
             color: rgb(255, 255, 255);
             }
 
-    /* Bronnenvlak van het stukje Overig. Deze is afwijkende grootte  */
-        .bronnen-vlak-afwijkend { 
-        height: auto;
-        background-color: #9b04d7;
-        padding: 5px 10px 15px 15px;
-        border-radius: 5px;
-        margin-left: 0px;
-        flex-wrap: wrap;
-        min-width: 700px;
-        max-width: 1410px
-        }
-
-        /* Links in de afwijkende bronnen vlak Overig  */
-            .bronnen-vlak-afwijkend li a, a:visited {
-            background-color: transparent;
-            color:#a3deef;
+            .bronnen-vlak:last-child {
+            grid-column: span 3;
             }
 
-        /* Kopje in afwijkende bronnen vlak  */
-            .bronnen-vlak-afwijkend h3 {
+        /* De links in bronnenvlak */
+            .bronnen-vlak li a, a:visited {
+            background-color: transparent;
+            color:#b6e8f6;
+            font-size: 15px;
+            }
+
+            .bronnen-vlak ul {
+            list-style: none;
+            color: white;
             padding-left: 15px;
             }
 
