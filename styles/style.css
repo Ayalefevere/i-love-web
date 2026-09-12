@@ -227,8 +227,36 @@ main {
 
 
 
+
+/* Foto pagina */
+    /* Container fotocollage */
+        .fotocollage {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        background-color: transparent;
         }
 
+        /* Container van de foto  */
+            .foto {
+            width: 300px;
+            height: 470px;
+            padding: 20px;
+            background-color: rgb(255, 162, 0);
+            border-radius: 5px;
+            }
+
+            /* Kopje van de foto conatainer */
+                    h3 {
+                    margin-top: 0px;
+                    }
+
+            /* De grootte van de image */
+                .foto img {
+                height: auto;
+                width: 300px;
+                }
+
+        
 /* Bronnen pagina */
     /* De container van HTML, CSS en JS vlak in bronnen pagina */
         .vlakken { 
@@ -276,44 +304,12 @@ main {
             padding-left: 15px;
             }
 
-/* Foto pagina */
-    /* Foto grootte van de image */
-        img {
-        width: 300px;
-        height: auto;
-        }
-
-    /* Container fotocollage */
-        .fotocollage {
-        display: flex;
-        background-color: transparent;
-        gap: 50px;
-        margin-left: -20px;
-        }
-
-    /* Kopje van de foto conatainer */
-        h3 {
-        margin-top: 0px;
-        }
-
-    /* Container van de foto  */
-        .foto {
-        width: 300px;
-        height: 470px;
-        padding: 20px;
-        background-color: rgb(218, 124, 1);
-        }
 footer {
 height: 50px;
     border-top:1px solid lightgrey;
     background-color: #ffffff;
     }
 
-    /* De grootte van de image */
-        img {
-        height: auto;
-        width: 300px;
-        }
     footer p {
         font-size: 14px;
         padding-left:50px;
