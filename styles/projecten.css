@@ -1,0 +1,208 @@
+
+/* PROJECTEN         */
+    
+/* In dit blokje staan de 4 kaarten van projecten     */
+    .project {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 80px;
+        row-gap: 50px;
+        }
+
+    /* Styling voor de foto in de card     */
+        .project .card img {
+            width: 500px;
+            height: 300px;
+            object-fit: cover;
+            display:block;
+            border: 1px solid lightgrey;
+            border-bottom: none;
+            border-radius: 5px 5px 0px 0px;
+            }
+
+        /* Vlak voor het onderste gedeelte dus onder de foto     */
+            .project .card-content {
+                display: grid;
+                grid-template-columns: 1fr 1fr;  
+                background-color: white;
+                width:500px;
+                height: 50px;
+                border-radius: 0px 0px 5px 5px;
+                border: 1px solid lightgrey;
+                border-top: none;
+                align-items: start;
+                }
+
+            /* De tekst in de card     */
+                .project .card-content h3 {
+                    padding-left: 15px;
+                    padding-top: 12px;
+                    color: #0F172A;
+                    }
+
+            /* De button in de card     */        
+                .card-content button {
+                width: 100px;
+                height: 30px;
+                background-color: rgb(157, 206, 254);
+                border: 1px solid transparent;
+                border-radius: 5px;
+                cursor: pointer;
+                margin-top: 10px;
+                margin-left:135px;
+                } 
+                
+/* PROJECT PAPGINA  */
+    .project-header h1 {
+        margin-bottom: 0px;
+        color: #0F172A;
+        }
+
+    /* Info over de sprint en datum     */
+        .sprint-info {
+            color: #0F172A;
+            margin-bottom: 50px;
+            }
+
+/* In het article zit het blokje met informatie over de week en foto's ernaast              */
+    article {
+        display: flex;
+        gap: 100px;
+        border-top: 1px solid lightgrey;
+        padding: 50px 0;
+        margin-left:-160px;
+        margin-right:-160px;
+        border-bottom: 1px solid lightgrey;
+        }
+
+    /* Dit is voor de tekst gedeelte in het blokje article met informatie over de week     */
+        article .tekstkolom {
+            margin-left:160px;
+            color: #0F172A;
+            }
+
+        /* Dit is voor de tekst in de acrticle     */
+            article h2 {
+                margin-top: 0px;
+                padding-top: 0px;
+                }
+
+    /* Dit is voor de foto in de acrticle     */
+        article img {
+            width: 400px;
+            height: auto;
+            margin-right: 160px;
+            }
+
+
+/* EINDRESULTAAT */
+
+    /* In dit blokje zit informatie met info over het eindresultaat en foto             */
+        .eindresultaat {
+        display: flex;
+        margin-left:-160px;
+        margin-right:-160px;
+        border-bottom: 1px solid lightgrey;
+        gap: 100px;
+        padding: 50px 0;
+        }
+
+        /* Tekst gedeelte in het .eindresultaat */
+            .eindresultaat .tekstkolom {
+            margin-left:160px;
+            color: #0F172A;
+            }
+
+            /* Voor de tekst in het eindresultaat             */
+                .eindresultaat h2 {
+                    margin-top: 0px;
+                    padding-top: 0px;
+                    }
+
+            /* De link naar het eindresultaat */
+                .eindresultaat a, a:visited {
+                    color:#000076;
+                    text-decoration: none;
+                    }
+
+            /* De pijl naast de link voor eindresultaat */    
+                .eindresultaat span {
+                    color:#000076;
+                    }
+
+        /* Foto in het eindresultaat              */
+            .eindresultaat img {
+                align-self: center;
+                margin-right: 160px;
+                height: auto;
+                width: 500px;
+                }
+
+
+/* Voor de styling van het vlak als de dropdown dicht is. */
+    .journal {
+        margin-bottom: 50px;
+    }
+
+    .journal summary {
+    width: 100%;
+    height: 50px;
+    background-color: #0F172A;
+    border-radius: 5px;
+    font-size: 20px;
+    box-sizing: border-box;
+    font-weight: bold;
+    padding-left: 10px;
+    align-content: center;
+    cursor: pointer;
+    color:white;
+    }
+
+    /* De hover als je over de summary dropdown gaat */
+        .journal summary:hover {
+        background-color: #1E293B;
+        }
+
+    /*Gaat over de project/sprint informatie bovenaan de details als je de dropdown opendoet met de sprint en naam en soort les */
+        .journal .project-info {
+        font-size: 15px;
+        font-style: italic;
+        padding-top:0px;
+        padding-bottom: 20px;
+        }
+
+    /* Styling van het vlak als de dropdown open is. */    
+        .journal details {   
+        margin-bottom: 25px;
+        }
+
+        /* Voor kopjes teksten in de dropdown */
+            .journal details h4 {
+            padding-left: 30px;
+            padding-top: 10px;
+            margin-bottom: -10px;
+            }
+            
+        /* Voor Paragraph teksten in de dropdown */
+            .journal details p {
+            padding-left: 30px;
+            padding-right: 50px;
+            }
+
+        /* Dit is voor de styling van de list tekst in de dropdown    */
+            .journal details ul {
+            padding-left: 50px;
+            padding-right: 50px;
+            }
+
+        /* Voor de span (bold) teksten in de dropdown    */
+            .journal details span {
+            font-weight: bold;
+            }
+
+       /* Deze link tag hoort bij bronnen van 2 september */
+            .journal a {
+            color:#0F172A;
+            }   
+
+   
