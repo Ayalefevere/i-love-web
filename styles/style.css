@@ -159,10 +159,10 @@
             color: #0F172A;
             }
 
-        /* Dit is voor de styling van de list tekst in de dropdown    */
-            details ul {
-                padding-left: 50px;
-                padding-bottom: 20px;
+        /* Het paragraph in de tekst gedeelte van voorstellen */
+            .voorstellen p {
+            font-size: 20px;
+            padding-left: 160px;
             }
 
     /* De foto in voorstellen gedeelte     */
@@ -237,11 +237,10 @@
          .recentprojecten {
         margin-left:-160px;
         margin-right:-160px;   
-        height: 800px;
-        background-color: white;
+        height: 450px;
         margin-top: 50px;
-        border-top: 1px solid grey;
-        padding-top: 40px;
+        border-top: 1px solid lightgrey;
+        max-height: 400px;
         }
 
     /* Het kopje van het vlak met recente projecten     */
@@ -251,12 +250,13 @@
 
         /* Het vlak van de recenste projecten             */
            .containerproject {
-            display:flex;
-            flex-wrap: wrap;
+            display:grid;
+            grid-template-columns: 1fr 1fr 1fr;
             max-width: 1200px;
+            height: 300px;
             margin-left: auto;
             margin-right: auto;
-            gap: 50px;
+            column-gap: 40px;
             }
 
             /* De link naar alle projecten onderaan           */
@@ -308,15 +308,16 @@
     /* De container van de vlakken in bronnen pagina */
         .vlakken { 
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        gap:50px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap:30px;
         background-color: transparent;
         }
 
         /* Het vlak in bronnen pagina */
             .bronnen-vlak { 
-            height: auto;
-            background-color: #b41fef;
+            /* height: auto; */
+            height: 300px;
+            background-color: #0F172A;
             padding: 5px 10px 15px 15px;
             border-radius: 5px;
             }
