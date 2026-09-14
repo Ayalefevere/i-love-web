@@ -1,102 +1,98 @@
-/* Styling voor de hele pagina */
-body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: rgb(208, 235, 246);
-    margin:0px;
-    }
+/* VOOR DE HELE PAGINA */
 
-/* De styling van onder de header     */
-main {
-    margin-left:auto;
-    margin-right: auto;
-    max-width: 1200px;
-}
-
-/* Titel van de pagina's */
-    h1 {
-    margin-bottom: 50px;
-    }
-
-
-/* Header */
-/* Dit is de header met logo foto en navigatiemenu */
-    header {
-    display: flex;
-    background-color: rgb(238, 238, 237);
-    height: 70px;
-    padding-left: 15px;
-    justify-content: space-between;
-    border-bottom: 1px solid lightgrey;
-    align-items: center;
-    padding-left: 70px;
-    padding-right: 70px;
-    margin-bottom: 50px;
-    }
-
-    /* Logo styling */
-        .logo img {
-        width: auto;
-        height: 50px;
-        background-color: transparent;
+    /* Styling voor de hele pagina */
+        body {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: #F0F8FF;
+        margin:0px;
         }
 
-/* Tekst van menu */
-        header nav ul {
-        list-style: none;
-        display: flex;
-        gap: 50px;
-        font-size: 20px;
-        } 
-
-        /* Tekst stylen van de link voor als je de pagina wel of niet hebt bezocht*/
-            li a:link, 
-            li a:visited {
-            text-decoration: none;
-            color: rgb(0, 0, 0);
-            }
-        
-         /* Als je met je muis over de naam gaat van de pagina in menu dan zie je dit */
-            li a:hover {
-            text-decoration: underline;
-            text-decoration-color: grey;
-            text-underline-offset: 5px;
-            }
-
-        /* Dit komt tevoorschijn bij de pagina die je op het moment bezoekt */    
-            li a.active {
-            text-decoration: underline;
-            text-decoration-color: red;
-            text-underline-offset: 5px;
-            }
-
-
-/* Home */
-
-.introductie {
-    font-weight: bold;
-    margin-left: -160px;
-    margin-bottom: 50px;
-}
-
-    .intro {
-    margin-left:-160px;
-    margin-right:-160px;
-    background-color: rgba(241, 240, 240, 0.873);
-    height: 300px;
-    margin-top: -50px;
-    border-bottom: 1px solid grey;
-    }
-
-    .intro h1 {
-        padding-top: 50px;
+    /* De styling van onder de header     */
+        main {
         margin-left:auto;
         margin-right: auto;
-        max-width: 1200px; 
+        max-width: 1200px;
         }
 
-    .intro h1 span {
-        font-size: 100px;
+    /* Titel van de pagina's */
+        h1 {
+        margin-bottom: 50px;
+        color: #0F172A;
         }
+
+    /* Kopjes en teksten styling*/
+        h2 {
+        padding-top: 20px;
+        margin-bottom: 50px;
+        color: #0F172A;  
+        }
+
+            p { 
+            color: #0F172A;
+            }
+
+    /* Intro tekst van de pagina */
+        .intro {
+        font-weight: bold;
+        margin-bottom: 50px;
+        width: 80%;
+        color: #0F172A;
+        }    
+
+
+    /* Header */
+        /* Dit is de header met logo foto en navigatiemenu */
+            header {
+            display: flex;
+            background-color: #0F172A;
+            height: 70px;
+            padding-left: 15px;
+            justify-content: space-between;
+            border-bottom: 1px solid lightgrey;
+            align-items: center;
+            padding-left: 70px;
+            padding-right: 70px;
+            margin-bottom: 50px;
+            }
+
+            /* Logo styling */
+                .logo img {
+                width: auto;
+                height: 50px;
+                background-color: transparent;
+                }
+
+            /* Tekst van menu */
+                    header nav ul {
+                    list-style: none;
+                    display: flex;
+                    gap: 50px;
+                    font-size: 20px;
+                    } 
+
+                /* Tekst stylen van de link voor als je de pagina wel of niet hebt bezocht*/
+                    li a:link, 
+                    li a:visited {
+                    text-decoration: none;
+                    color: white;
+                    }
+                
+                /* Als je met je muis over de naam gaat van de pagina in menu dan zie je dit */
+                    li a:hover {
+                    text-decoration: underline;
+                    text-decoration-color: #F0F8FF;
+                    text-underline-offset: 5px;
+                    }
+
+                /* Dit komt tevoorschijn bij de pagina die je op het moment bezoekt */    
+                    li a.active {
+                    text-decoration: underline;
+                    text-decoration-color: red;
+                    text-underline-offset: 5px;
+                    }
+
+                    
+    /* FOOTER        */
 
     .voorstellen {
     margin-left:-160px;
