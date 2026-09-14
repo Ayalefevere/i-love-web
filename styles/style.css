@@ -94,65 +94,69 @@
                     
     /* FOOTER        */
 
-    .voorstellen {
-    margin-left:-160px;
-    margin-right:-160px;    
-    display: flex;
-    gap: 50px;
-    border-bottom: 1px solid grey;
-    background-color: white;
-    padding-bottom: 50px;
-    margin-bottom: 50px;
+        /* Dit is voor de footer vlak */
+            footer {
+            background-color: #0F172A;
+            box-sizing: border-box;
+            margin-top: 50px;
+            }
 
-    }
+            /* Voor de tekst in de footer     */
+                footer p {
+                margin-bottom: 0px;
+                margin-top: 0px;
+                padding-left: 70px;
+                padding-top: 20px;
+                padding-bottom:20px;  
+                font-size: 14px;  
+                color: white;
+                }        
 
-    .voorstellen h2, p {
-        padding-left: 160px;
-        padding-top: 40px;
-    }
 
-    .voorstellen p {
-        font-size: 20px;
-    }
+/* Home */
 
-        .voorstellen img {
-            height: 400px;
-            width: auto;
-            padding-right: 200px;
-            padding-top: 50px;
+    /* Dit is de introductie over de website */
+        .introductie {
+        margin-left:-160px;
+        margin-right:-160px;
+        height: 300px;
+        margin-top: -50px;
+        border-bottom: 1px solid lightgrey;
         }
 
-    h2 {
-        margin-bottom: 50px;
-    }    
+        /* Tekst styling van h1 */    
+            .introductie h1 {
+                padding-top: 50px;
+                margin-left:auto;
+                margin-right: auto;
+                max-width: 1200px; 
+                color:#0F172A;
+                }
 
+        /* Tekst styling van een gedeelte van de h1 */        
+            .introductie h1 span {
+                font-size: 100px;
+                }
 
-    /* Voor de styling van het vlak als de dropdown dicht is. */
-    summary {
-        width: 100%;
-        height: 50px;
-        background-color: rgb(99, 149, 248);
-        border-radius: 5px;
-        font-size: 20px;
-        box-sizing: border-box;
-        font-weight: bold;
-        padding-left: 10px;
-        align-content: center;
-        cursor: pointer;
+    /* Het vlak gedeelte van het voorstellen stukje             */
+        .voorstellen {
+        margin-left:-160px;
+        margin-right:-160px;    
+        display: flex;
+        gap: 100px;
+        border-bottom: 1px solid lightgrey;
+        padding-bottom: 50px;
         }
 
-    /* Styling van het vlak als de dropdown open is. */    
-        details {
-        background-color: rgb(159, 189, 248);
-        border-radius: 5px;
-        margin-bottom: 25px;
+    /* Dit is voor de tekst gedeelte van het voorstellen     */
+        .voorstellen section {
+        padding-top: 100px;
         }
 
-        /* Voor Paragraph teksten in de dropdown */
-            details p {
-                padding-left: 30px;
-                padding-right: 30px;
-                padding-bottom: 20px;
+        /* Het kopje in de tekst gedeelte van voorstellen */
+            .voorstellen h2 {
+            padding-left: 160px;
+            color: #0F172A;
             }
 
         /* Dit is voor de styling van de list tekst in de dropdown    */
@@ -161,24 +165,76 @@
                 padding-bottom: 20px;
             }
 
-        /* Voor de span teksten in de dropdown */   
-            details span {
-                font-weight: bold;
+    /* De foto in voorstellen gedeelte     */
+        .voorstellen img {
+            height: 500px;
+            width: auto;
+            padding-right: 200px;
+            padding-top: 50px;
             }
 
-        /*Gaat over de project/sprint informatie bovenaan de details als je de dropdown opendoet dus op summary klikt */
-            .project-info{
+
+    /* Voor de styling van het vlak als de dropdown dicht is. */
+        .blogs summary {
+            width: 100%;
+            height: 50px;
+            background-color: #0F172A;
+            border-radius: 5px;
+            font-size: 20px;
+            box-sizing: border-box;
+            font-weight: bold;
+            padding-left: 10px;
+            align-content: center;
+            cursor: pointer;
+            color:white;
+            }
+
+        /* De hover als je over de summary dropdown gaat */
+            .blogs summary:hover {
+            background-color: #1E293B;
+            }
+
+        /*Gaat over de project/sprint informatie bovenaan de details als je de dropdown opendoet met de sprint en naam en soort les */
+           .blogs .project-info{
             font-size: 15px;
             font-style: italic;
+            padding-top:0px;
+            padding-bottom: 20px;
+           }
+
+        /* Styling van het vlak als de dropdown open is. */    
+            .blogs details {
+            margin-bottom: 25px;
             }
 
-            /* Deze link tag hoort bij bronnen van 2 september */
-                a {
-                color:rgb(0, 26, 96);
-                }    
+            /* Voor kopjes teksten in de dropdown */
+            .blogs details h4 {
+                padding-left: 30px;
+                padding-top: 10px;
+                margin-bottom: -10px;
+                }
+                
+            /* Voor Paragraph teksten in de dropdown */
+                .blogs details p {
+                padding-left: 30px;
+                padding-right: 50px;
+                }
+
+            /* Dit is voor de styling van de list tekst in de dropdown    */
+                .blogs details ul {
+                padding-left: 50px;
+                padding-right: 50px;
+                }
+
+            /* Voor de span teksten in de dropdown    */
+                .blogs details span {
+                font-weight: bold;
+                }
 
 
-    .recentprojecten {
+
+    /* Het vlak voor de recenste projecten             */
+         .recentprojecten {
         margin-left:-160px;
         margin-right:-160px;   
         height: 800px;
@@ -188,10 +244,12 @@
         padding-top: 40px;
         }
 
+    /* Het kopje van het vlak met recente projecten     */
         .recentprojecten h2 {
         margin-left: 160px;
         }
 
+        /* Het vlak van de recenste projecten             */
            .containerproject {
             display:flex;
             flex-wrap: wrap;
@@ -201,60 +259,53 @@
             gap: 50px;
             }
 
-            .containerproject article {
-                width: 450px;
-                height: 250px;
-                background-color: rgb(223, 223, 223);
-                border:1px solid black;
-                border-radius: 5px;
-            }
-
-                .containerproject h3 {
-                padding-left: 15px;
-                padding-top: 5px;
-                color: black;
-                }
-        
-                article img {
-                    width: 450px;
-                    height: auto;
+            /* De link naar alle projecten onderaan           */
+                .recentprojecten .containerproject a {
+                text-decoration: none;
+                justify-self: flex-end;
+                grid-column: 1 / -1; 
+                color: #0F172A;
+                padding-right: 10px;
                 }
 
-
-
-
-
-/* Foto pagina */
-    /* Container fotocollage */
-        .fotocollage {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        background-color: transparent;
-        }
-
-        /* Container van de foto  */
-            .foto {
-            width: 300px;
-            height: 470px;
-            padding: 20px;
-            background-color: rgb(255, 162, 0);
-            border-radius: 5px;
-            }
-
-            /* Kopje van de foto conatainer */
-                    h3 {
-                    margin-top: 0px;
+                /* Voor de link naar alle projecten           */    
+                    .recentprojecten .containerproject a:link {
+                    color: #0F172A;
                     }
 
-            /* De grootte van de image */
-                .foto img {
-                height: auto;
-                width: 300px;
+                /* Voor de hover link naar alle projecten           */    
+                    .recentprojecten .containerproject a:hover {
+                    color: rgb(0, 0, 152);
+                    }
+
+            /* Dit is het kaartje naar het project */
+                .containerproject section {
+                max-width: 370px;
+                height: 250px;
+                display: grid;
+                background-color:white;
+                border:1px solid lightgrey;
+                border-radius: 5px;
                 }
 
-        
+                /* Dit is het kopje in het kaartje naar het project */    
+                    .containerproject h3 {
+                    padding-left: 15px;
+                    padding-top: 10px;
+                    color: #0F172A;
+                    }
+            
+                /* Dit is de foto in het kaartje naar het project */    
+                    section img {
+                    width: 370px;
+                    height: 200px;
+                    object-fit: cover;
+                    }
+
+                    
 /* Bronnen pagina */
-    /* De container van HTML, CSS en JS vlak in bronnen pagina */
+
+    /* De container van de vlakken in bronnen pagina */
         .vlakken { 
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -262,7 +313,7 @@
         background-color: transparent;
         }
 
-        /* Het vlak van HTML, CSS en JS in bronnen pagina */
+        /* Het vlak in bronnen pagina */
             .bronnen-vlak { 
             height: auto;
             background-color: #b41fef;
@@ -270,38 +321,64 @@
             border-radius: 5px;
             }
 
-        /* Kopje in bronnen vlak */
-            .bronnen-vlak h3 {
-            padding-top: 15px;
-            padding-left: 15px;
-            color: rgb(255, 255, 255);
+            /* Kopje in bronnen vlak */
+                .bronnen-vlak h3 {
+                padding-top: 15px;
+                padding-left: 15px;
+                color: white;
+                }
+
+            /* De lijst in de vlakken voor de linkjes     */
+                .bronnen-vlak ul {
+                list-style: none;
+                color: white;
+                padding-left: 15px;
+                }
+
+                /* De links in bronnen vlak */
+                    .bronnen-vlak li a, a:visited {
+                    background-color: transparent;
+                    color:white;
+                    font-size: 15px;
+                    }
+
+                /* Links in vlak als je over heen gaat met muis    */
+                    .bronnen-vlak li a:hover {
+                    text-decoration: underline;
+                    text-decoration-color: #F0F8FF;
+                    text-underline-offset: 4px;
+                    }
+
+
+
+/* DIT GAAT WEG                     */
+
+    /* Foto pagina */
+
+        /* Container fotocollage */
+            .fotocollage {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
             }
 
-            .bronnen-vlak:last-child {
-            grid-column: span 3;
-            }
+            /* Container van de foto  */
+                .foto {
+                width: 300px;
+                height: 470px;
+                padding: 20px;
+                background-color: rgb(255, 162, 0);
+                border-radius: 5px;
+                }
 
-        /* De links in bronnenvlak */
-            .bronnen-vlak li a, a:visited {
-            background-color: transparent;
-            color:#b6e8f6;
-            font-size: 15px;
-            }
+                /* Kopje van de foto conatainer */
+                    h3 {
+                    margin-top: 0px;
+                    }
 
-            .bronnen-vlak ul {
-            list-style: none;
-            color: white;
-            padding-left: 15px;
-            }
+                /* De grootte van de image */
+                    .foto img {
+                    height: auto;
+                    width: 300px;
+                    }
 
-footer {
-height: 50px;
-    border-top:1px solid lightgrey;
-    background-color: #ffffff;
-    }
-
-    footer p {
-        font-size: 14px;
-        padding-left:50px;
-
-        }
+    
