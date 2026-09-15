@@ -232,7 +232,7 @@
 
             /* Voor de span teksten in de dropdown    */
                 .blogs details span {
-                font-weight: bold;
+                font-style: italic;
                 }
 
             /* Deze link tag hoort bij bronnen linkjes */
