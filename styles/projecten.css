@@ -204,5 +204,18 @@
             .journal a {
             color:#0F172A;
             }   
+                    /* Styling op 14 september de kolom */        
+                        .visuele {
+                        display: flex;
+                        margin-top: -10px;
+                        }
+
+                        /* Foto in de details bij dag 14 september    */    
+                            .visuele img {
+                            width: auto;
+                            height: 270px;
+                            padding-top: 40px;           
+                            }
+                            
 
    

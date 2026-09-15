@@ -231,6 +231,24 @@
                 font-weight: bold;
                 }
 
+            /* Deze link tag hoort bij bronnen linkjes */
+                .blogs details a {
+                color:#0F172A;
+                }                   
+                
+                /* Styling op 14 september de kolom */
+                    .hierachie {
+                    display: flex;
+                    }
+
+                    /* Foto in de details bij dag 14 september    */ 
+                        .hierachie img {
+                        width: auto;
+                        height: 270px;
+                        padding-top: 40px;
+                        }
+
+
 
 
     /* Het vlak voor de recenste projecten             */
