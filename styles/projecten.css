@@ -77,18 +77,17 @@
             border-bottom: 1px solid lightgrey;
             }
 
-            article h2 {
-                margin-top: 0px;
-                padding-top: 0px;
         /* Dit is voor de tekst gedeelte in het blokje article met informatie over de week     */
+            article .tekstkolom {
+                margin-left:160px;
+                color: #0F172A;
                 }
 
-    /* Dit is voor de foto in de acrticle     */
-        article img {
-            width: 400px;
-            height: auto;
-            margin-right: 160px;
-            }
+            /* Dit is voor de tekst in de acrticle     */
+                article h2 {
+                    margin-top: 0px;
+                    padding-top: 0px;
+                    }
 
         /* Dit is voor de foto in de acrticle     */
             article img {
