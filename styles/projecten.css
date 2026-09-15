@@ -139,8 +139,9 @@
                 }
 
 
-/* Voor de styling van het vlak als de dropdown dicht is. */
-    .journal {
+    /* BLOGS                 */
+    /* Voor de styling van het vlak als de dropdown dicht is. */
+        .journal {
         margin-bottom: 50px;
     }
 
@@ -171,10 +172,10 @@
         padding-bottom: 20px;
         }
 
-    /* Styling van het vlak als de dropdown open is. */    
-        .journal details {   
-        margin-bottom: 25px;
-        }
+            /* Styling van het vlak als de dropdown open is. */    
+                .journal details {   
+                margin-bottom: 40px;
+                }
 
         /* Voor kopjes teksten in de dropdown */
             .journal details h4 {
@@ -218,4 +219,6 @@
                             }
                             
 
-   
+    
+
+    

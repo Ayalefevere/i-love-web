@@ -138,6 +138,8 @@
                 font-size: 100px;
                 }
 
+
+/* VOORSTELLEN BLOK */               
     /* Het vlak gedeelte van het voorstellen stukje             */
         .voorstellen {
         margin-left:-160px;
@@ -174,6 +176,8 @@
             }
 
 
+/* BLOGS BLOK */
+
     /* Voor de styling van het vlak als de dropdown dicht is. */
         .blogs summary {
             width: 100%;
@@ -194,6 +198,11 @@
             background-color: #1E293B;
             }
 
+        /* Styling van het vlak als de dropdown open is. */    
+            .blogs details {
+            margin-bottom: 40px;
+            }
+            
         /*Gaat over de project/sprint informatie bovenaan de details als je de dropdown opendoet met de sprint en naam en soort les */
            .blogs .project-info{
             font-size: 15px;
@@ -202,16 +211,11 @@
             padding-bottom: 20px;
            }
 
-        /* Styling van het vlak als de dropdown open is. */    
-            .blogs details {
-            margin-bottom: 25px;
-            }
-
             /* Voor kopjes teksten in de dropdown */
             .blogs details h4 {
                 padding-left: 30px;
-                padding-top: 10px;
                 margin-bottom: -10px;
+                padding-top:  10px;
                 }
                 
             /* Voor Paragraph teksten in de dropdown */
@@ -250,6 +254,7 @@
 
 
 
+/* RECENTE PROJECTEN BLOK */
 
     /* Het vlak voor de recenste projecten             */
          .recentprojecten {
@@ -321,7 +326,7 @@
                     }
 
                     
-/* Bronnen pagina */
+/* BRONNEN PAGINA */
 
     /* De container van de vlakken in bronnen pagina */
         .vlakken { 
