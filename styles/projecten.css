@@ -63,28 +63,24 @@
             color: #0F172A;
             margin-bottom: 50px;
             }
-
-/* In het article zit het blokje met informatie over de week en foto's ernaast              */
-    article {
-        display: flex;
-        gap: 100px;
-        border-top: 1px solid lightgrey;
-        padding: 50px 0;
-        margin-left:-160px;
-        margin-right:-160px;
-        border-bottom: 1px solid lightgrey;
-        }
-
-    /* Dit is voor de tekst gedeelte in het blokje article met informatie over de week     */
-        article .tekstkolom {
-            margin-left:160px;
-            color: #0F172A;
+ 
+            
+    /* WEEK INFORMATIE EN FOTOS             */
+    /* In het article zit het blokje met informatie over de week en foto's ernaast              */
+        article {
+            display: flex;
+            gap: 100px;
+            border-top: 1px solid lightgrey;
+            padding: 50px 0;
+            margin-left:-160px;
+            margin-right:-160px;
+            border-bottom: 1px solid lightgrey;
             }
 
-        /* Dit is voor de tekst in de acrticle     */
             article h2 {
                 margin-top: 0px;
                 padding-top: 0px;
+        /* Dit is voor de tekst gedeelte in het blokje article met informatie over de week     */
                 }
 
     /* Dit is voor de foto in de acrticle     */
@@ -94,117 +90,125 @@
             margin-right: 160px;
             }
 
+        /* Dit is voor de foto in de acrticle     */
+            article img {
+                width: 400px;
+                height: auto;
+                margin-right: 160px;
+                }
 
-/* EINDRESULTAAT */
 
-    /* In dit blokje zit informatie met info over het eindresultaat en foto             */
-        .eindresultaat {
-        display: flex;
-        margin-left:-160px;
-        margin-right:-160px;
-        border-bottom: 1px solid lightgrey;
-        gap: 100px;
-        padding: 50px 0;
-        }
+    /* EINDRESULTAAT GEDEELTE */
 
-        /* Tekst gedeelte in het .eindresultaat */
-            .eindresultaat .tekstkolom {
-            margin-left:160px;
-            color: #0F172A;
+        /* In dit blokje zit informatie met info over het eindresultaat en foto             */
+            .eindresultaat {
+            display: flex;
+            margin-left:-160px;
+            margin-right:-160px;
+            border-bottom: 1px solid lightgrey;
+            gap: 100px;
+            padding: 50px 0;
             }
 
-            /* Voor de tekst in het eindresultaat             */
-                .eindresultaat h2 {
-                    margin-top: 0px;
-                    padding-top: 0px;
-                    }
-
-            /* De link naar het eindresultaat */
-                .eindresultaat a, a:visited {
-                    color:#000076;
-                    text-decoration: none;
-                    }
-
-            /* De pijl naast de link voor eindresultaat */    
-                .eindresultaat span {
-                    color:#000076;
-                    }
-
-        /* Foto in het eindresultaat              */
-            .eindresultaat img {
-                align-self: center;
-                margin-right: 160px;
-                height: auto;
-                width: 500px;
+            /* Tekst gedeelte in het .eindresultaat */
+                .eindresultaat .tekstkolom {
+                margin-left:160px;
+                color: #0F172A;
                 }
+
+                /* Voor de tekst in het eindresultaat             */
+                    .eindresultaat h2 {
+                        margin-top: 0px;
+                        padding-top: 0px;
+                        }
+
+                /* De link naar het eindresultaat */
+                    .eindresultaat a, a:visited {
+                        color:#000076;
+                        text-decoration: none;
+                        }
+
+                /* De pijl naast de link voor eindresultaat */    
+                    .eindresultaat span {
+                        color:#000076;
+                        }
+
+            /* Foto in het eindresultaat              */
+                .eindresultaat img {
+                    align-self: center;
+                    margin-right: 160px;
+                    height: auto;
+                    width: 500px;
+                    }
 
 
     /* BLOGS                 */
     /* Voor de styling van het vlak als de dropdown dicht is. */
         .journal {
         margin-bottom: 50px;
-    }
+        }  
 
-    .journal summary {
-    width: 100%;
-    height: 50px;
-    background-color: #0F172A;
-    border-radius: 5px;
-    font-size: 20px;
-    box-sizing: border-box;
-    font-weight: bold;
-    padding-left: 10px;
-    align-content: center;
-    cursor: pointer;
-    color:white;
-    }
-
-    /* De hover als je over de summary dropdown gaat */
-        .journal summary:hover {
-        background-color: #1E293B;
+        .journal summary {
+        width: 100%;
+        height: 50px;
+        background-color: #0F172A;
+        border-radius: 5px;
+        font-size: 20px;
+        box-sizing: border-box;
+        font-weight: bold;
+        padding-left: 10px;
+        align-content: center;
+        cursor: pointer;
+        color:white;
         }
 
-    /*Gaat over de project/sprint informatie bovenaan de details als je de dropdown opendoet met de sprint en naam en soort les */
-        .journal .project-info {
-        font-size: 15px;
-        font-style: italic;
-        padding-top:0px;
-        padding-bottom: 20px;
-        }
+        /* De hover als je over de summary dropdown gaat */
+            .journal summary:hover {
+            background-color: #1E293B;
+            }
 
             /* Styling van het vlak als de dropdown open is. */    
                 .journal details {   
                 margin-bottom: 40px;
                 }
 
-        /* Voor kopjes teksten in de dropdown */
-            .journal details h4 {
-            padding-left: 30px;
-            padding-top: 10px;
-            margin-bottom: -10px;
-            }
-            
-        /* Voor Paragraph teksten in de dropdown */
-            .journal details p {
-            padding-left: 30px;
-            padding-right: 50px;
-            }
+                /*Gaat over de project/sprint informatie bovenaan de details als je de dropdown opendoet met de sprint en naam en soort les */
+                    .journal .project-info {
+                    font-size: 15px;
+                    font-style: italic;
+                    padding-top:0px;
+                    padding-bottom: 20px;
+                    }
 
-        /* Dit is voor de styling van de list tekst in de dropdown    */
-            .journal details ul {
-            padding-left: 50px;
-            padding-right: 50px;
-            }
+                /* Voor kopjes teksten in de dropdown */
+                    .journal details h4 {
+                    padding-left: 30px;
+                    margin-bottom: -10px;
+                    padding-top:  10px;
+                    }
+                
+                /* Voor Paragraph teksten in de dropdown */
+                    .journal details p {
+                    padding-left: 30px;
+                    padding-right: 50px;
+                    }
 
-        /* Voor de span (bold) teksten in de dropdown    */
-            .journal details span {
-            font-weight: bold;
-            }
+                /* Dit is voor de styling van de list tekst in de dropdown    */
+                    .journal details ul {
+                    padding-left: 50px;
+                    padding-right: 50px;
+                    }
 
-       /* Deze link tag hoort bij bronnen van 2 september */
-            .journal a {
-            color:#0F172A;
-            }   
+                /* Voor de span teksten in de dropdown    */
+                    .journal details span {
+                    font-weight: italic;
+                    }
+
+                /* Deze link tag hoort bij bronnen linkjes */
+                    .journal details a {
+                    color:#0F172A;
+                    } 
+
                     /* Styling op 14 september de kolom */        
                         .visuele {
                         display: flex;
