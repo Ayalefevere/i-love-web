@@ -5,6 +5,7 @@
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         background-color: #F0F8FF;
         margin:0px;
+        overflow-x: hidden;
         }
 
     /* De styling van onder de header     */
@@ -183,8 +184,6 @@
         margin-left:-160px;
         margin-right:-160px;   
         height: 450px;
-        margin-top: 50px;
-        border-top: 1px solid lightgrey;
         max-height: 400px;
         }
 
@@ -220,7 +219,7 @@
 
                 /* Voor de hover link naar alle projecten           */    
                     .recentprojecten .containerproject a:hover {
-                    color: rgb(0, 0, 152);
+                    color: #000098;
                     }
 
             /* Dit is het kaartje naar het project */
@@ -236,8 +235,8 @@
                 /* Dit is het kopje in het kaartje naar het project */    
                     .containerproject h3 {
                     padding-left: 15px;
-                    padding-top: 10px;
                     color: #0F172A;
+                    margin-top: 10px;
                     }
             
                 /* Dit is de foto in het kaartje naar het project */    
