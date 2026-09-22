@@ -36,7 +36,7 @@
             /* De tekst in de card     */
                 .project .card-content h3 {
                     padding-left: 15px;
-                    padding-top: 12px;
+                    margin-top: 12px;
                     color: #0F172A;
                     }
 
@@ -51,6 +51,7 @@
                 margin-top: 10px;
                 margin-left:135px;
                 } 
+
                 
 /* PROJECT PAPGINA  */
     .project-header h1 {
@@ -71,7 +72,7 @@
             display: flex;
             gap: 100px;
             border-top: 1px solid lightgrey;
-            padding: 50px 0;
+            padding-bottom: 60px;
             margin-left:-160px;
             margin-right:-160px;
             border-bottom: 1px solid lightgrey;
@@ -81,6 +82,7 @@
             article .tekstkolom {
                 margin-left:160px;
                 color: #0F172A;
+                padding-top: 60px;
                 }
 
             /* Dit is voor de tekst in de acrticle     */
@@ -94,6 +96,8 @@
                 width: 400px;
                 height: auto;
                 margin-right: 160px;
+                padding-top: 70px;
+                object-fit: cover;
                 }
 
 
@@ -194,6 +198,12 @@
 
                 /* Dit is voor de styling van de list tekst in de dropdown    */
                     .journal details ul {
+                    padding-left: 50px;
+                    padding-right: 50px;
+                    }
+
+                /* Dit is voor ordend lijst tekst in de dropdown    */
+                    .journal details ol {
                     padding-left: 50px;
                     padding-right: 50px;
                     }
