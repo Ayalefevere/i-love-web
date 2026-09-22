@@ -160,7 +160,7 @@
                     }
 
 
-    /* BLOGS                 */
+    /* BLOGS /LEARNING JOURNAL                */
     /* Voor de styling van het vlak als de dropdown dicht is. */
         .journal {
         margin-bottom: 50px;
@@ -182,7 +182,7 @@
 
         /* De hover als je over de summary dropdown gaat */
             .journal summary:hover {
-            background-color: #1E293B;
+            background-color: #232f43;
             }
 
             /* Styling van het vlak als de dropdown open is. */    
