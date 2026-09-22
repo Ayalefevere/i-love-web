@@ -82,14 +82,14 @@
                     li a:hover {
                     text-decoration: underline;
                     text-decoration-color: #F0F8FF;
-                    text-underline-offset: 5px;
+                    text-underline-offset: 7px;
                     }
 
                 /* Dit komt tevoorschijn bij de pagina die je op het moment bezoekt */    
                     li a.active {
                     text-decoration: underline;
                     text-decoration-color: red;
-                    text-underline-offset: 5px;
+                    text-underline-offset: 7px;
                     }
 
                     
