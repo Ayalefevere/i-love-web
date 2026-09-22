@@ -215,11 +215,12 @@
                 /* Voor de link naar alle projecten           */    
                     .recentprojecten .containerproject a:link {
                     color: #0F172A;
+                    transition-duration: 1s;
                     }
 
                 /* Voor de hover link naar alle projecten           */    
                     .recentprojecten .containerproject a:hover {
-                    color: #000098;
+                    color: #0000ce;
                     }
 
             /* Dit is het kaartje naar het project */
