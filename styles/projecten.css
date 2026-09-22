@@ -50,7 +50,15 @@
                 cursor: pointer;
                 margin-top: 10px;
                 margin-left:135px;
+                transition-duration: 1s;
+                
                 } 
+
+                /* De button hover     */ 
+                    .card-content button:hover {
+                    background-color: #0F172A;
+                    color: white;
+                    }
 
                 
 /* PROJECT PAPGINA  */
