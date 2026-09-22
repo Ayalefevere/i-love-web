@@ -137,6 +137,7 @@
                     .eindresultaat a, a:visited {
                         color:#000076;
                         text-decoration: none;
+                        transition-duration: 1s;
                         }
 
                 /* De pijl naast de link voor eindresultaat */    
@@ -144,7 +145,13 @@
                         color:#000076;
                         }
 
-            /* Foto in het eindresultaat              */
+                    /* De link tekst hover naar het eindresultaat  */
+                        .eindresultaat a:hover {
+                            color:red;
+                            text-decoration: none;
+                            }
+
+            /* Foto's in het eindresultaat              */
                 .eindresultaat img {
                     align-self: center;
                     margin-right: 160px;
