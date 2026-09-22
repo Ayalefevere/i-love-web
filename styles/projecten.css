@@ -222,6 +222,48 @@
                             }
                             
 
-    
+/* Dit is voor de back to top button */
+
+    /* Dit zorgt ervoor dat de scroll naar boven mooi gaat */
+        html {
+            scroll-behavior: smooth;
+        }
+
+    /* Dit is voor de button uiterlijk en animatie     */
+        .scrolltotop {
+        width: 50px;  
+        height: 50px;
+        border-radius: 50px;
+        background-color: rgb(27, 0, 73);
+        color: white;
+        border: 1px solid transparent;
+        font-size: 20px;
+        position: fixed;
+        right: 2%;
+        top: 90%;
+
+        opacity: 0;
+        pointer-events: none;
+
+        animation-name: appear;
+        animation-timeline: scroll(root);
+        animation-range:500px;
+        animation-fill-mode: both;
+        
+        }
+
+    /* Keyframes voor de animatie  */
+        @keyframes appear {
+        from { 
+        opacity: 0;
+        pointer-events: none;
+        }
+
+        to { 
+        opacity: 1;
+        pointer-events: auto;
+        }
+        }
+        
 
     
