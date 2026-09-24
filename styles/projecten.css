@@ -245,6 +245,16 @@
                             height: 270px;
                             padding-top: 40px;           
                             }
+
+                    .fotoschetsen   {
+                        display: flex;
+                        padding-left: 50px;
+                        gap: 30px;
+                    }     
+
+                    .fotoschetsen img {
+                        height: 200px;
+                    }
                             
 
 /* Dit is voor de back to top button */
