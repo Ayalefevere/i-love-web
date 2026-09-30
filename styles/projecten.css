@@ -255,6 +255,14 @@
                     .fotoschetsen img {
                         height: 200px;
                     }
+
+                    .screenshot {
+                        height: 250px;
+                        padding-left: 30px;
+                        object-fit: cover;
+                    }
+
+
                             
 
 /* Dit is voor de back to top button */
