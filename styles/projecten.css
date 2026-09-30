@@ -159,6 +159,50 @@
                     width: 500px;
                     }
 
+                /* .fotoviewer {
+                    overflow-x: hidden;
+                    margin-right: 160px;
+                   
+                } */
+
+            /* Foto's in het eindresultaat              */
+                /* .fotoviewer img {
+                    width: 500px;
+                    height: auto;
+                    
+                } */
+
+                    /* .fotoviewer ul {
+                        list-style: none;
+                        display: flex;
+
+                        scroll-snap-type: x mandatory;
+                        scroll-behavior: smooth;
+                    } */
+
+                    /* .fotoviewer li {
+                        flex-basis:100%;
+                        flex-shrink: 0;
+                        scroll-snap-align: start;
+                          padding-left:0;
+                    }
+
+                    .fotonav {
+                        display: flex;
+                        gap: 10px;
+                       
+                        scroll-target-group: auto;
+                    }
+
+                    .fotonav img {
+                        width: 100px;
+                    } */
+
+
+
+        
+                    
+
 
     /* BLOGS /LEARNING JOURNAL                */
     /* Voor de styling van het vlak als de dropdown dicht is. */
