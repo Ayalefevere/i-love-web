@@ -132,11 +132,12 @@
                 margin-right: auto;
                 max-width: 1200px; 
                 color:#0F172A;
+                font-size: 30px;
                 }
 
         /* Tekst styling van een gedeelte van de h1 */        
             .introductie h1 span {
-                font-size: 100px;
+                font-size: 90px;
                 }
 
 
@@ -170,7 +171,7 @@
 
     /* De foto in voorstellen gedeelte     */
         .voorstellen img {
-            height: 500px;
+            height: 400px;
             width: auto;
             padding-right: 200px;
             padding-top: 50px;
@@ -254,7 +255,7 @@
         .vlakken { 
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        gap:30px;
+        gap:20px;
         background-color: transparent;
         }
 
@@ -285,7 +286,7 @@
                     .bronnen-vlak li a, a:visited {
                     background-color: transparent;
                     color:white;
-                    font-size: 15px;
+                    font-size: 16px;
                     }
 
                 /* Links in vlak als je over heen gaat met muis    */
