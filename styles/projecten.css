@@ -276,6 +276,7 @@
 
                 /* Deze link tag hoort bij bronnen linkjes */
                     .journal details a {
+                    padding-left: 50px;
                     color:#0F172A;
                     } 
 
