@@ -78,6 +78,28 @@
             color: #0F172A;
             margin-bottom: 50px;
             }
+
+        .project-header {
+            padding-bottom: 30px;
+        }    
+
+            /* Project header link naar repo  */
+            .project-header a, a:visited {
+                color:#000076;
+                text-decoration: none;
+                transition-duration: 1s;
+                }
+
+                    /* De pijl naast de link voor eindresultaat */    
+                    .project-header span {
+                        color:#000076;
+                        }
+
+            /* Project header link naar repo hover */
+                .project-header a:hover {
+                    color:purple;
+                    text-decoration: none;
+                    }
  
             
     /* WEEK INFORMATIE EN FOTOS             */
