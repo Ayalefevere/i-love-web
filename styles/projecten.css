@@ -1,6 +1,10 @@
 
 /* PROJECTEN         */
     
+.intro {
+    white-space: pre-line;
+}
+
 /* In dit blokje staan de 4 kaarten van projecten     */
     .project {
         display: grid;
