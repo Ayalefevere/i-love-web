@@ -53,15 +53,17 @@
                 border-radius: 5px;
                 cursor: pointer;
                 margin-top: 10px;
-                margin-left:135px;
+                position: relative;
+                left: 130px;
                 transition-duration: 1s;
-                
                 } 
 
                 /* De button hover     */ 
                     .card-content button:hover {
                     background-color: #0F172A;
                     color: white;
+                    transform: translateX(3px); 
+                    transition: transform 0.2s ease;
                     }
 
                 
