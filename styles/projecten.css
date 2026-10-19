@@ -97,7 +97,7 @@
 
             /* Project header link naar repo hover */
                 .project-header a:hover {
-                    color:purple;
+                    color:rgb(218, 0, 252);
                     text-decoration: none;
                     }
  
@@ -259,7 +259,6 @@
 
                 /* Deze link tag hoort bij bronnen linkjes */
                     .journal details a {
-                    padding-left: 50px;
                     color:#0F172A;
                     } 
 
