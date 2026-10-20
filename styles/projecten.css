@@ -310,7 +310,7 @@
         }
 
     /* Dit is voor de button uiterlijk en animatie     */
-        .scrolltotop {
+        .scrolltotop, .scrolltotop:visited {
         width: 50px;  
         height: 50px;
         border-radius: 50px;
@@ -322,6 +322,10 @@
         right: 2%;
         top: 90%;
         cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
 
         opacity: 0;
         pointer-events: none;
@@ -330,7 +334,6 @@
         animation-timeline: scroll(root);
         animation-range:20% 30%;
         animation-fill-mode: both;
-        
         }
 
     /* Keyframes voor de animatie  */
