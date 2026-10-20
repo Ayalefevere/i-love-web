@@ -38,9 +38,10 @@
                 }
 
             /* De tekst in de card     */
-                .project .card-content h3 {
+                .project .card-content h2 {
                     padding-left: 15px;
-                    margin-top: 12px;
+                    padding-top: 0px;
+                    font-size: 18px;
                     color: #0F172A;
                     }
 
@@ -228,10 +229,11 @@
                     }
 
                 /* Voor kopjes teksten in de dropdown */
-                    .journal details h4 {
+                    .journal details h3 {
                     padding-left: 30px;
                     margin-bottom: -10px;
                     padding-top:  10px;
+                    font-size: 16px;
                     }
                 
                 /* Voor Paragraph teksten in de dropdown */

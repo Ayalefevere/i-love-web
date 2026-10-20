@@ -269,9 +269,10 @@
             }
 
             /* Kopje in bronnen vlak */
-                .bronnen-vlak h3 {
-                padding-top: 15px;
+                .bronnen-vlak h2 {
                 padding-left: 15px;
+                padding-top:0px;
+                margin-bottom: 30px;
                 color: white;
                 }
 
