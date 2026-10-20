@@ -1,5 +1,5 @@
 
-/* PROJECTEN         */
+/* PROJECTEN PAGINA        */
     
 .intro {
     white-space: pre-line;
@@ -46,26 +46,32 @@
                     }
 
             /* De button in de card     */        
-                .card-content button {
+                .card .card-content a, a:visited {
                 width: 100px;
                 height: 30px;
                 background-color: rgb(157, 206, 254);
-                border: 1px solid transparent;
                 border-radius: 5px;
                 cursor: pointer;
                 margin-top: 10px;
                 position: relative;
                 left: 130px;
                 transition-duration: 1s;
+
+                font-size: 14px;
+                font-family: Arial;
+                text-decoration: none;
+                color: #0F172A;
+                display: flex;
+                justify-content: center;
+                align-items: center;
                 } 
 
-                /* De button hover     */ 
-                    .card-content button:hover {
-                    background-color: #0F172A;
-                    color: white;
-                    transform: translateX(3px); 
-                    transition: transform 0.2s ease;
-                    }
+                .card-content a:hover {
+                background-color: #0F172A;
+                color: white;
+                transform: translateX(3px); 
+                transition: transform 0.2s ease;
+                }
 
                 
 /* PROJECT PAPGINA  */
