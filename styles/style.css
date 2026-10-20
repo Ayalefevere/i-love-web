@@ -254,7 +254,7 @@
     /* De container van de vlakken in bronnen pagina */
         .vlakken { 
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
         gap:20px;
         background-color: transparent;
         }
@@ -263,7 +263,7 @@
             .bronnen-vlak { 
             height: 300px;
             background-color: #0F172A;
-            padding: 5px 10px 15px 15px;
+            padding: 0px 10px 15px 15px;
             border-radius: 5px;
             }
 
