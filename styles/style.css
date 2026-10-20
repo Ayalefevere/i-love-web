@@ -261,7 +261,6 @@
 
         /* Het vlak in bronnen pagina */
             .bronnen-vlak { 
-            /* height: auto; */
             height: 300px;
             background-color: #0F172A;
             padding: 5px 10px 15px 15px;
