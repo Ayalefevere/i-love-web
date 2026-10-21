@@ -127,21 +127,12 @@
                 margin-left:160px;
                 color: #0F172A;
                 padding-top: 60px;
-                }
+            }
 
             /* Dit is voor de tekst in de acrticle     */
                 article h2 {
                     margin-top: 0px;
                     padding-top: 0px;
-                    }
-
-        /* Dit is voor de foto in de acrticle     */
-            article img {
-                width: 400px;
-                height: auto;
-                margin-right: 160px;
-                padding-top: 70px;
-                object-fit: cover;
                 }
 
 
