@@ -125,6 +125,7 @@
         /* Dit is voor de tekst gedeelte in het blokje article met informatie over de week     */
             article .tekstkolom {
                 margin-left:160px;
+                margin-right:160px;
                 color: #0F172A;
                 padding-top: 60px;
             }
@@ -134,7 +135,6 @@
                     margin-top: 0px;
                     padding-top: 0px;
                 }
-
 
     /* EINDRESULTAAT GEDEELTE */
 
@@ -260,7 +260,13 @@
                 /* Deze link tag hoort bij bronnen linkjes */
                     .journal details a {
                     color:#0F172A;
+                    text-decoration: underline;
+
+                        &:hover {
+                            text-decoration-color: red;
+                        }
                     } 
+
 
                     /* Styling op 14 september de kolom */        
                         .visuele {
