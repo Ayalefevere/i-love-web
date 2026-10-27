@@ -287,9 +287,15 @@
                         gap: 30px;
                     }     
 
-                    .fotoschetsen img {
-                        height: 200px;
-                    }
+                        .fotoscheckout img {
+                            height: 200px;
+                            width: auto;
+                        }
+
+                        #kleurcontrast {
+                            height: 100px;
+                            width: auto;
+                        }
 
                     .screenshot {
                         height: 250px;
