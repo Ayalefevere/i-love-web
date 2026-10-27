@@ -297,8 +297,10 @@
                             width: auto;
                         }
 
+                    /* Foto in de details bij dag 30 september */  
                     .screenshot {
-                        height: 250px;
+                        height: 300px;
+                        width: auto;
                         padding-left: 30px;
                         object-fit: cover;
                     }
