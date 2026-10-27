@@ -281,10 +281,11 @@
                             padding-top: 40px;           
                             }
 
-                    .fotoschetsen   {
+                    /* Foto in de details bij dag 23 september / 26 oktober */
+                    .fotoscheckout {
                         display: flex;
-                        padding-left: 50px;
-                        gap: 30px;
+                        padding-left: 30px;
+                        gap: 20px;
                     }     
 
                         .fotoscheckout img {
