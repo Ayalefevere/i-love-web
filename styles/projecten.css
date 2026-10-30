@@ -289,13 +289,8 @@
                     }     
 
                         .fotoscheckout img {
-                            height: 200px;
-                            width: auto;
-                        }
-
-                        #kleurcontrast {
-                            height: 100px;
-                            width: auto;
+                            height: auto;
+                            width: 200px;
                         }
 
                     /* Foto in de details bij dag 30 september */  
