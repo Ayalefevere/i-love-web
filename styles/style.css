@@ -253,9 +253,33 @@
                     object-fit: cover;
                     }
 
-                    
+  /* WE LOVE WE PAGINA */        
+    .lezing {
+        border-top: 1px solid lightgrey;
+        margin-left:-160px;
+        margin-right:-160px;
+        margin-top: 50px;
 
-                    
+        a, a:visited {
+            color: #0F172A;
+        }
+    }
+
+    .lezing .tekstkolom {
+        margin-left:160px;
+        margin-right:160px;
+        color: #0F172A;
+    }
+
+    .lezing .lezing-info {
+        font-size: 15px;
+        font-style: italic;
+        margin-top:-40px;
+        padding-bottom: 20px;
+    }  
+
+
+                
 /* BRONNEN PAGINA */
 
     /* De container van de vlakken in bronnen pagina */
