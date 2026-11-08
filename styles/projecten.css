@@ -334,7 +334,7 @@
 
         animation-name: appear;
         animation-timeline: scroll(root);
-        animation-range:20% 30%;
+        animation-range: 20% 30%;
         animation-fill-mode: both;
         }
 
