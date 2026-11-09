@@ -291,6 +291,7 @@
                         .fotoscheckout img {
                             height: auto;
                             width: 200px;
+                            object-fit: cover;
                         }
 
                     /* Foto in de details bij dag 30 september */  
@@ -301,6 +302,18 @@
                         object-fit: cover;
                     }
 
+                    /* Foto in de details bij dag 9 november */  
+                    .meme {
+                        display: flex;
+                        gap: 20px;
+                        padding-left: 30px;
+                        padding-top: 30px;
+
+                        img {
+                            height: auto;
+                            width: 200px;
+                        }
+                    }
 
                             
 
