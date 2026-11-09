@@ -338,6 +338,11 @@
         animation-fill-mode: both;
         }
 
+        .scrolltotop:hover {
+            transform: translateY(-2px); 
+            transition: transform 0.2s ease;
+        }
+
     /* Keyframes voor de animatie  */
         @keyframes appear {
         from { 
