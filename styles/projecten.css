@@ -47,18 +47,16 @@
 
             /* De button in de card     */        
                 .card .card-content a, a:visited {
-                width: 100px;
+                width: 120px;
                 height: 30px;
                 background-color: rgb(157, 206, 254);
                 border-radius: 5px;
                 cursor: pointer;
                 margin-top: 10px;
                 position: relative;
-                left: 130px;
+                left: 110px;
                 transition-duration: 1s;
-
                 font-size: 14px;
-                font-family: Arial;
                 text-decoration: none;
                 color: #0F172A;
                 display: flex;
