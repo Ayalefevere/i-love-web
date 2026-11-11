@@ -1,0 +1,29 @@
+h2 {
+    color: purple;
+}
+
+/* Wordt de heading nu paars? Of wordt de huisstijl uitgevoerd? Kan je bedenken waarom dit gebeurt?
+ Ja de tekst word paars, omdat op de class geen kleur is gegeven */
+
+.green {
+    color: green;
+}
+
+/* Welke kleur krijgt de heading met twee classes? Krijgt het de kleur van de huisstijl of wordt de andere class uitgevoerd? Waarom krijgt de heading die kleur?
+De class kleur word uitgevoerd dus de onderste tekst word groen en de bovenste blijven paars  */
+
+.heading-medium {
+    color: pink;
+}
+
+/* Welke kleur hebben de headings nu? Probeer te beschrijving waarom de heading die kleur heeft?
+Nu krijgt de 1e en de laatste h2 tekst een roze kleur. 
+Deze hebben allebei een kleur roze omdat ze allebei een class hebben en class een class heeft voorrang op het element. 
+Want de middelste h2 heeft geen class, dus daarom is deze niet roze */
+
+#heading {
+    color: yellow;
+}
+
+/* Welke kleur krijgt de heading? De kleur van de id-selector of 'wint' de class uit de gezamenlijke stylesheet? Waarom is dat?
+ De kleur van de heading word nu geel. De ID word eerder gelezen dan de class, omdat ID specifieker is */
