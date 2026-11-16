@@ -91,7 +91,7 @@
             .project-header a, a:visited {
                 color: var(--color-link);
                 text-decoration: none;
-                transition-duration: 1s;
+                transition-duration: 0.5s;
                 }
 
                 /* De pijl naast de link voor eindresultaat */    
@@ -171,7 +171,7 @@
                     .eindresultaat a, a:visited {
                         color:var(--color-link);
                         text-decoration: none;
-                        transition-duration: 1s;
+                        transition-duration: 0.5s;
                         }
 
                 /* De pijl naast de link voor eindresultaat */    
