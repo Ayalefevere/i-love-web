@@ -1,4 +1,18 @@
-/* VOOR ALLE PAGINA'S */
+:root {
+    --light: #ffffff;
+    --light-accent: #F0F8FF;
+    --color-neutral: #d3d3d3;
+    --dark-accent: #0F172A;
+    --lightdark-accent: #232f43;
+    --color-link: #000076;
+    --color-interactive-light: #9dcefe;
+    --color-interactive-dark: #1b0049;
+    --color-hover-01: #0000ce;
+    --color-hover-02: #ff0000;
+}
+
+
+/* ALL PAGES */
 
     body {
     font-family: Verdana, Arial, Helvetica, sans-serif;
