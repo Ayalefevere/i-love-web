@@ -1,4 +1,3 @@
-
 /* PROJECTEN PAGINA        */
     
 .intro {
@@ -19,7 +18,7 @@
             height: 300px;
             object-fit: cover;
             display:block;
-            border: 1px solid lightgrey;
+            border: 1px solid var(--color-neutral);
             border-bottom: none;
             border-radius: 5px 5px 0px 0px;
             }
@@ -28,11 +27,11 @@
             .project .card-content {
                 display: grid;
                 grid-template-columns: 1fr 1fr;  
-                background-color: white;
+                background-color: var(--light);
                 width:500px;
                 height: 50px;
                 border-radius: 0px 0px 5px 5px;
-                border: 1px solid lightgrey;
+                border: 1px solid var(--color-neutral);
                 border-top: none;
                 align-items: start;
                 }
@@ -42,14 +41,14 @@
                     padding-left: 15px;
                     padding-top: 0px;
                     font-size: 18px;
-                    color: #0F172A;
+                    color: var(--dark-accent);
                     }
 
             /* De button in de card     */        
                 .card .card-content a, a:visited {
                 width: 120px;
                 height: 30px;
-                background-color: rgb(157, 206, 254);
+                background-color: var(--color-interactive-light);
                 border-radius: 5px;
                 cursor: pointer;
                 margin-top: 10px;
@@ -58,15 +57,15 @@
                 transition-duration: 1s;
                 font-size: 14px;
                 text-decoration: none;
-                color: #0F172A;
+                color: var(--dark-accent);
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 } 
 
                 .card-content a:hover {
-                background-color: #0F172A;
-                color: white;
+                background-color: var(--dark-accent);
+                color: var(--light);
                 transform: translateX(3px); 
                 transition: transform 0.2s ease;
                 }
@@ -75,12 +74,12 @@
 /* PROJECT PAPGINA  */
     .project-header h1 {
         margin-bottom: 0px;
-        color: #0F172A;
+        color: var(--dark-accent);
         }
 
     /* Info over de sprint en datum     */
         .sprint-info {
-            color: #0F172A;
+            color: var(--dark-accent);
             margin-bottom: 50px;
             }
 
@@ -90,19 +89,19 @@
 
             /* Project header link naar repo  */
             .project-header a, a:visited {
-                color:#000076;
+                color: var(--color-link);
                 text-decoration: none;
                 transition-duration: 1s;
                 }
 
-                    /* De pijl naast de link voor eindresultaat */    
-                    .project-header span {
-                        color:#000076;
-                        }
+                /* De pijl naast de link voor eindresultaat */    
+                .project-header span {
+                    color: var(--color-link);
+                    }
 
             /* Project header link naar repo hover */
                 .project-header a:hover {
-                    color:rgb(218, 0, 252);
+                    color: var(--color-hover-02);
                     text-decoration: none;
                 }
                     
@@ -113,26 +112,26 @@
         article {
             display: flex;
             gap: 100px;
-            border-top: 1px solid lightgrey;
+            border-top: 1px solid var(--color-neutral);
             padding-bottom: 60px;
             margin-left:-160px;
             margin-right:-160px;
-            border-bottom: 1px solid lightgrey;
+            border-bottom: 1px solid var(--color-neutral);
             }
 
         /* Dit is voor de tekst gedeelte in het blokje article met informatie over de week     */
             article .tekstkolom {
                 margin-left:160px;
                 margin-right:160px;
-                color: #0F172A;
+                color: var(--dark-accent);
                 padding-top: 60px;
             }
 
             article .tekstkolom a, a:visited {
-                color: #0F172A;
+                color: var(--dark-accent);
 
                 &:hover {
-                    text-decoration-color: red;
+                    text-decoration-color: var(--color-hover-02);
                 }
             }
 
@@ -149,15 +148,15 @@
             display: flex;
             margin-left:-160px;
             margin-right:-160px;
-            border-bottom: 1px solid lightgrey;
+            border-bottom: 1px solid var(--color-neutral);
             gap: 50px;
             padding: 50px 0;
             }
 
             /* Tekst gedeelte in het .eindresultaat */
                 .eindresultaat .tekstkolom {
-                margin-left:160px;
-                color: #0F172A;
+                margin-left: 160px;
+                color: var(--dark-accent);
                 width: 150%;
 
                 }
@@ -170,19 +169,19 @@
 
                 /* De link naar het eindresultaat */
                     .eindresultaat a, a:visited {
-                        color:#000076;
+                        color:var(--color-link);
                         text-decoration: none;
                         transition-duration: 1s;
                         }
 
                 /* De pijl naast de link voor eindresultaat */    
                     .eindresultaat span {
-                        color:#000076;
+                        color:var(--color-link);
                         }
 
                     /* De link tekst hover naar het eindresultaat  */
                         .eindresultaat a:hover {
-                            color:red;
+                            color:var(--color-hover-02);
                             text-decoration: none;
                             }
 
@@ -203,7 +202,7 @@
         .journal summary {
         width: 100%;
         height: 50px;
-        background-color: #0F172A;
+        background-color: var(--dark-accent);
         border-radius: 5px;
         font-size: 20px;
         box-sizing: border-box;
@@ -211,12 +210,12 @@
         padding-left: 10px;
         align-content: center;
         cursor: pointer;
-        color:white;
+        color: var(--light);
         }
 
         /* De hover als je over de summary dropdown gaat */
             .journal summary:hover {
-            background-color: #232f43;
+            background-color: var(--lightdark-accent);
             }
 
             /* Styling van het vlak als de dropdown open is. */    
@@ -265,11 +264,11 @@
 
                 /* Deze link tag hoort bij bronnen linkjes */
                     .journal details a {
-                    color:#0F172A;
+                    color:var(--dark-accent);
                     text-decoration: underline;
 
                         &:hover {
-                            text-decoration-color: red;
+                            text-decoration-color: var(--color-hover-02);
                         }
                     } 
 
@@ -335,8 +334,8 @@
         width: 50px;  
         height: 50px;
         border-radius: 50px;
-        background-color: #1b0049;
-        color: white;
+        background-color: var(--color-interactive);
+        color: var(--light);
         border: 1px solid transparent;
         font-size: 25px;
         position: fixed;

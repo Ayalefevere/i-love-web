@@ -16,7 +16,7 @@
 
     body {
     font-family: Verdana, Arial, Helvetica, sans-serif;
-    background-color: #F0F8FF;
+    background-color: var(--light-accent);
     margin:0px;
     overflow-x: hidden;
     line-height: 1.4;
@@ -42,11 +42,11 @@
     h2 {
     padding-top: 20px;
     margin-bottom: 50px;
-    color: #0F172A;  
+    color: var(--dark-accent);  
     }
 
     p { 
-    color: #0F172A;
+    color: var(--dark-accent);
     }
 
     /* Voor de Intro tekst van de pagina */
@@ -54,7 +54,7 @@
     font-weight: bold;
     margin-bottom: 50px;
     width: 80%;
-    color: #0F172A;
+    color: var(--dark-accent);
     }    
 
 
@@ -62,11 +62,10 @@
 
     header {
         display: flex;
-        background-color: #0F172A;
+        background-color: var(--dark-accent);
         height: 70px;
         padding-left: 15px;
         justify-content: space-between;
-        border-bottom: 1px solid lightgrey;
         align-items: center;
         padding-left: 70px;
         padding-right: 70px;
@@ -88,18 +87,18 @@
         li a:link, 
         li a:visited {
             text-decoration: none;
-            color: white;
+            color: var(--light);
         }
 
         li a:hover {
             text-decoration: underline;
-            text-decoration-color: #F0F8FF;
+            text-decoration-color: var(---light-accent);
             text-underline-offset: 7px;
         }
 
         li a.active {
             text-decoration: underline;
-            text-decoration-color: red;
+            text-decoration-color: var(--color-hover-02);
             text-underline-offset: 7px;
         }
     }
@@ -107,7 +106,7 @@
 /* FOOTER        */
 
     footer {
-        background-color: #0F172A;
+        background-color: var(--dark-accent);
         box-sizing: border-box;
         margin-top: 70px;
 
@@ -118,7 +117,7 @@
             padding-top: 20px;
             padding-bottom:20px;  
             font-size: 14px;  
-            color: white;
+            color: var(--light);
         }
     }
       
@@ -131,14 +130,14 @@
         margin-right:-160px;
         height: 300px;
         margin-top: -50px;
-        border-bottom: 1px solid lightgrey;
+        border-bottom: 1px solid var(--color-neutral);
 
         h1 {
             padding-top: 50px;
             margin-left:auto;
             margin-right: auto;
             max-width: 1200px; 
-            color:#0F172A;
+            color:var(--dark-accent);
             font-size: 30px;
 
             span {
@@ -153,7 +152,7 @@
         margin-right:-160px;    
         display: flex;
         gap: 100px;
-        border-bottom: 1px solid lightgrey;
+        border-bottom: 1px solid var(--color-neutral);
         padding-bottom: 50px;
 
         section {
@@ -162,7 +161,7 @@
 
         h2 {
             padding-left: 160px;
-            color: #0F172A;
+            color: var(--dark-accent);
         }
 
         p {
@@ -202,8 +201,8 @@
                 max-width: 370px;
                 height: 250px;
                 display: grid;
-                background-color:white;
-                border:1px solid lightgrey;
+                background-color:var(--light);
+                border:1px solid var(--color-neutral);
                 border-radius: 5px;
 
                 img {
@@ -214,7 +213,7 @@
 
                 h3 {
                     padding-left: 15px;
-                    color: #0F172A;
+                    color: var(--dark-accent);
                     margin-top: 10px;
                 }
             }
@@ -224,12 +223,12 @@
                 text-decoration: none;
                 justify-self: flex-end;
                 grid-column: 1 / -1; 
-                color: #0F172A;
+                color: var(--dark-accent);
                 padding-right: 10px;
             }
 
             a:hover {
-                color: #0000ce;
+                color: var(--color-hover-01);
                 transform: translateY(-2px); 
                 transition: transform 0.2s ease;
             }
@@ -239,7 +238,7 @@
 
   /* WE LOVE WE PAGINA */        
     .lezing {
-        border-top: 1px solid lightgrey;
+        border-top: 1px solid var(--color-neutral);
         margin-left:-160px;
         margin-right:-160px;
         margin-top: 50px;
@@ -247,7 +246,7 @@
         .tekstkolom {
             margin-left:160px;
             margin-right:160px;
-            color: #0F172A;
+            color: var(--dark-accent);
 
             .lezing-info {
                 font-size: 15px;
@@ -257,7 +256,7 @@
             }  
 
             a, a:visited {
-                color: #0F172A;
+                color: var(--dark-accent);
             }
         }
     }
@@ -274,7 +273,7 @@
 
         .bronnen-vlak { 
             height: 300px;
-            background-color: #0F172A;
+            background-color: var(--dark-accent);
             padding: 0px 10px 15px 15px;
             border-radius: 5px;
 
@@ -282,25 +281,25 @@
                 padding-left: 15px;
                 padding-top:0px;
                 margin-bottom: 30px;
-                color: white;
+                color: var(--light);
             }
 
             ul {
                 list-style: none;
-                color: white;
+                color: var(--light);
                 padding-left: 15px;
             }
 
             li a, a:visited {
                 background-color: transparent;
-                color:white;
+                color:var(--light);
                 text-decoration: none;
                 font-size: 16px;
             }
 
             li a:hover {
                 text-decoration: underline;
-                text-decoration-color: #F0F8FF;
+                text-decoration-color: var(---light-accent);
                 text-underline-offset: 3px;
             }
         }
