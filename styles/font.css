@@ -1,0 +1,59 @@
+
+/* Opdrachtje 1 */
+
+/* Behalve pixels zijn de Absolute length units niet geschikt voor het web, 
+lukt het je toch om met cm of mm een regel van zo'n 10–12 woorden te maken? 
+Ik kies ervoor dat de regel 11 woorden heeft altijd. */
+
+/* p { 
+    font-size: 1.5cm;
+    font-size: 15mm;
+} */
+
+/* Hoeveel px is dat? De font-size is pixels is 56px */
+
+/* Opdrachtje 2 */
+
+/* Gebruik daarna de Font-relative length units. Hoeveel em heb je nodig voor een goede regellengte? */
+/* En in ch dan? */
+
+/* p {
+    /* font-size: 3.5em; */
+    /* font-size: 7ch; */
+    /* font-size: 3.5rem; 
+} */
+
+/* Wat is het verschil als je rem gebruikt? Bij rem heb ik dezelfde size grootte gebruikt als bij em */
+
+
+ /* Wat gebeurt er als je dezelfde tekst met een ander font gebruikt? 
+ Als ik de font van Times New Roman naar Verdana verander dan staan er 8 woorden op 1 regel ipv 11. */
+
+ p {
+   font-family: Verdana, Geneva, Tahoma, sans-serif; 
+ } 
+
+/* Opdrachtje 3 */
+
+/* Experimenteer tot slot met Viewport relative units en Container units, zoals vw en cqw. En wat doen dvw of vmax. Op de default font gedaan.*/
+
+/* p {
+    font-size: 4vw;
+    font-size: 4cqw; 
+    font-size: 4dvw;
+    font-size: 4vmax;
+} */
+
+/* Alle viewport units sizes zijn allemaal hetzelfde. Allemaal 4 en de regellengte is overal hetzelfde */
+
+
+/* Experimenteer tot slot met Viewport relative units en Container units, zoals vw en cqw. En wat doen dvw of vmax. Op de Verdana font gedaan.*/
+
+p {
+    /* font-size: 3vw; */
+    /* font-size: 3cqw;  */
+    /* font-size: 3dvw; */
+    font-size: 3vmax;
+}
+
+/* Alle viewport units sizes zijn allemaal hetzelfde. Allemaal 3 en de regellengte is overal hetzelfde */
