@@ -84,11 +84,16 @@
         }
 
         nav ul {
+        display: block;   
+        list-style: none; 
+
+        @media (min-width: 1024px){
             list-style: none;
             display: flex;
             gap: 50px;
             font-size: 20px;
             } 
+        }
 
         li a:link, 
         li a:visited {
