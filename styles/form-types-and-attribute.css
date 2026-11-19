@@ -1,0 +1,70 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input {
+    margin-top: 10px;
+}
+
+legend {
+    background-color: rgb(54, 0, 153);
+    color: white;
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 300px;
+}
+
+.required input:required {
+    background-color: rgb(237, 0, 237);
+}
+
+.enabled input:enabled {
+    background-color: yellow;
+}
+
+.readonly input:read-only {
+    background-color: antiquewhite;
+    border-radius: 5px;
+}
+
+.readwrite textarea:read-write {
+    background-color: rgb(166, 236, 200);
+}
+
+.placeholders input:placeholder-shown {
+    background-color: lightcoral;
+}
+
+.default input:default {
+    outline: 2px solid red;
+}
+
+.checked input:checked {
+    outline: 3px solid rgb(0, 153, 36);
+}
+
+.indeterminate input:indeterminate {
+    box-shadow: 2px 2px 5px blue;
+}
+
+.valid input:valid {
+    background-color: beige;
+    border: 2px solid green;
+}
+
+.invalid input:invalid {
+    background-color: brown;
+    border: 2px solid red;
+}
+
+.optional input:required {
+    background-color: rgb(255, 34, 0);
+}
+
+    .optional input:optional {
+        background-color: rgb(51, 255, 0);
+    }
+
+.blank textarea:empty {
+    background-color: salmon;
+}

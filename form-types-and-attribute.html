@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/form-types-and-attribute.css">
+    <title>Form types and attributes</title>
+</head>
+<body>
+    
+<h1>Form types and attributes</h1>
+
+<h2> Waarom heeft elke input een label nodig?</h2>
+<p>Omdat het toegankelijker is dat elk input een label heeft. Dan kunnen mensen altijd zien wat ze moeten invullen en wat de input is. 
+Als je placeholder doet dan verdwijnt de tekst als je gaat typen en dat wil je niet. Daarom altijd een label toevoegen.</p>
+
+<form>
+    <label> Zoeken <input type="search" name="search"></label>
+
+    <h3>Search balk met placeholder</h3>
+    <label>Zoeken <input type="search" name="search" placeholder="Zoeken"></label>
+</form>
+
+<h2> Wat doe je met de attributen type, autocomplete, inputmode en enterkeyhint?</h2>
+<h3> Type</h3>
+<p>Hoe een input werkt is afhankelijk van de type attribute. Er zijn verschillende types zoals checkbox, radio, date, email en nog veel meer.</p>
+<form>
+    <label>Checkbox <input type="checkbox">  </label>
+    <label>Radio <input type="radio"> </label>
+    <label>Date <input type="date"></label>
+    <label>Email <input type="email" name="email" placeholder="email"> </label>
+</form>
+
+<h3> Autocomplete</h3>
+<p>Dat bepaalt of een formulier of invoerveld de automatische aanvullingsfunctie moet hebben ingeschakeld of uitgeschakeld. Hiermee kan de browser de waarde voorspellen. 
+Wanneer de gebruiker begint te typen in een veld moet de browser opties weergeven om het veld in te vullen, gebaseerd op eerder ingevoerde waarden.</p>
+<form>
+    <label>Zoeken on <input type="search" name="search" autocomplete="on"></label>
+    <label>Zoeken off <input type="search" name="search"  autocomplete="off"></label>
+</form>
+
+<h3> Inputmode</h3>
+<p>De inputmode verandert het uiterlijk van het toetsenbord op telefoon of tablet. Als je bij een input telefoonnummer hebt staan kun je de inputmode tel of numeric gebruiken zodat je cijfers hebt. </p>
+<form>
+    <label>Phonenumber <input type="tel" name="phonenumber" inputmode="tel"> </label>
+</form>
+
+<h3>Enterkeyhint</h3>
+<p>Hiermee kun je het uiterlijk van de enter toets op een telefoon of tablet wijzingen. Zoals je kunt de enter button veranderen naar search. </p>
+<form>
+    <label>Zoeken <input type="search" name="search" enterkeyhint="search"> </label>
+</form>
+
+<h2> Wat doen fielsets en legends in een formulier</h2>
+<p> Je kunt hiermee structuur maken. Je kunt hiermee input elementen kunt grouperen. En de legends dat is een voor de kop, dat kun je vergelijken met een H2 en h3. </p>
+
+<form>
+<fielset>
+    <legend>Kies je onderwerp</legend>
+        <label><input type="radio" name="tags">Kleur</label><br>
+        <label><input type="radio" name="tags">Typografie </label><br>
+        <label><input type="radio" name="tags">UX Design </label>
+</fielset>
+</form>
+
+<h2> Wat doen required, maxlength, min, max, step?</h2>
+<h3> Required</h3>
+<p>Required zorgt ervoor dat je de input moet hebben ingevuld</p>
+
+<form class="required">
+    <label>Name <input type="text" name="name" required> </label>
+    <label>Name (niet required) <input type="text" name="name"> </label>
+</form>
+
+<h3> Maxlength</h3>
+<p>Maxlength zorgt ervoor dat als je een tekst input hebt bijvoorbeeld dat er max aantal karakter in mogen staan. Zoals bij telefoonnummer max 9. </p>
+<form>
+    <label>Phonenumber: <input type="tel" name="phonenumber" inputmode="tel" maxlength="9"> </label>
+</form>
+
+<h3> Minlength</h3>
+<p>Je hebt ook minlength en dat is dat er minimaal zoveel aantal karakters in een tekst mogen bijvoorbeeld zoals minimaal 4. </p>
+<form>
+    <label>Username: <input type="text" name="username" minlength="4"> </label>
+</form>
+
+<h3> Min</h3>
+<p>Min dat is value vanaf minimaal hoelaat of nummer je kunt doen dus wat valid is. Als het minder is dan heeft de input het aan dat je hoger moet zitten zoals minimaal 3.  </p>
+<form>
+    <label>Number: <input type="number" name="number" min="3"> </label>
+</form>
+
+<h3> Max</h3>
+<p>Max dat is value tot maximaal hoelaat of nummer je kunt doen dus wat valid is. Als het meer is dan heeft de input het aan dat je lager moet zitten zoals max 10. </p>
+<form>
+    <label>Number: <input type="number" name="number" max="10"> </label>
+</form>
+
+<h3> Step</h3>
+<p>Step is een value voor nummers zoals weken, dagen, tijd etc. daarna kunnen de stappen aangeven dat je omhoog en omlaag gaat dus bijvoorbeeld in stapjes van 2 dagen of 10 seconden.</p>
+<form>
+    <label>Time: <input type="time" name="time" Min="0" step="10"> </label>
+</form>
+
+<h2> Welke input pseudo-classes ken je nog niet? Maak met allemaal een demo'tje</h2>
+
+<p>:enabled, :disabled, :read-only, :read-write, :placeholder-shown, :default, :checked, :indeterminate, :valid, :invalid, :optional and :blank</p>
+
+<h3>:enabled</h3>
+<form class="enabled">
+    <label>Name (enabled) <input type="text" name="name"> </label>
+</form>
+
+<h3>:disabled</h3>
+<form>
+    <label>Name (disabled) <input type="text" name="name" disabled> </label>
+</form>
+
+<h3>:read-only</h3>
+<form class="readonly">
+    <label>Name (readonly) <input type="text" name="name" placeholder="Readonly text" readonly> </label>
+</form>
+
+<h3>:read-write</h3>
+<form class="readwrite">
+    <label>Short note about yourself (readwrite)</label><br>
+    <textarea></textarea>
+</form>
+
+<h3>:placeholder-shown</h3>
+<form class="placeholders">
+    <label>Zoeken <input type="search" name="search" placeholder="zoeken"> </label>
+</form>
+
+<h3>:default</h3>
+<form class="default">
+    <label>Kleur <input type="checkbox" checked>  </label>
+    <label>Typografie <input type="checkbox">  </label>
+    <label>Design <input type="checkbox">  </label>
+</form>
+
+<h3>:checked</h3>
+<form class="checked">
+    <label>Kleur <input type="checkbox">  </label>
+    <label>Typografie <input type="checkbox">  </label>
+    <label>Design <input type="checkbox">  </label>
+</form>
+</form>
+
+<h3>:indeterminate</h3>
+<form class="indeterminate">
+<form>
+    <label><input type="radio" name="tags">Kleur</label>
+    <label><input type="radio" name="tags">Typografie </label>
+    <label><input type="radio" name="tags">UX Design </label>
+</form>
+
+<h3>:valid</h3>
+<form class="valid">
+    <label>Email <input type="email" name="email" placeholder="email"> </label>
+</form>
+
+<h3>:invalid</h3>
+<form class="invalid">
+    <label>Email <input type="email" name="email" placeholder="email"> </label>
+</form>
+
+<h3>:optional</h3>
+<form class="optional">
+    <label>Name <input type="text" name="name" required> </label>
+    <label>Email <input type="email" name="email"> </label>
+    <label>Country <input type="text" name="country"> </label>
+</form>
+
+<h3>:blank (:empty)</h3>
+<form class="blank">
+   <label>What is your favorite country and why? </label><br>
+   <textarea></textarea>
+</form>
+
+</body>
+</html>
