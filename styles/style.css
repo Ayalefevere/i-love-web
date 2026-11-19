@@ -156,12 +156,20 @@
             padding-top: 50px;
             margin-left:auto;
             margin-right: auto;
-            max-width: 1200px; 
-            color:var(--dark-accent);
-            font-size: 30px;
+            width: 80%; 
+            color: var(--dark-accent);
+            font-size: 25px;
+
+            @media (min-width: 1024px) {
+                font-size: 30px;
+            }
 
             span {
-                font-size: 90px;
+                font-size: 40px;
+
+                @media (min-width: 1024px) {
+                    font-size: 90px;
+                }
             }
         }
     }         
