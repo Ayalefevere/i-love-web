@@ -62,12 +62,20 @@
         display: flex;
         background-color: var(--dark-accent);
         height: 70px;
-        padding-left: 15px;
+        padding: 0 15px;
         justify-content: space-between;
         align-items: center;
-        padding-left: 70px;
-        padding-right: 70px;
         margin-bottom: 50px;
+
+        @media (min-width: 1024px){
+            display: flex;
+            padding-left: 15px;
+            justify-content: space-between;
+            align-items: center;
+            padding-left: 70px;
+            padding-right: 70px;
+            margin-bottom: 50px;
+        }
 
         .logo img {
             width: auto;
