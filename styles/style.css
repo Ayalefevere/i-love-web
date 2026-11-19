@@ -45,10 +45,14 @@
 
     /* Voor de Intro tekst van de pagina */
     .intro {
-    font-weight: bold;
-    margin-bottom: 50px;
-    width: 80%;
-    color: var(--dark-accent);
+        font-weight: bold;
+        margin-bottom: 50px;
+        width: 100%;
+        color: var(--dark-accent);
+
+        @media (min-width: 1024px){
+        width: 80%;
+        }
     }    
 
 
