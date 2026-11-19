@@ -1,0 +1,36 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input:user-invalid {
+    color: red;
+}
+
+input {
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 70px;
+    outline: none;
+    border: 2px solid darkblue;
+}
+
+input[type="time"] {
+    color: darkblue;
+    padding: 3px;
+}
+
+input[type="time"]:in-range {
+    color: green;
+}
+
+input[type="time"]:out-of-range {
+    color: red;
+}
+
+input:required {
+    border: 2px solid purple;
+}
+
+input[type="color"]:open {
+    border: 2px solid turquoise;
+}
