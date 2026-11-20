@@ -289,6 +289,34 @@
         }
     }
 
+    /* OEFENPAGINA'S PAGINA */        
+    .oefenpagina {
+        border-top: 1px solid var(--color-neutral);
+        margin-left:-160px;
+        margin-right:-160px;
+        margin-top: 50px;
+
+        .tekstkolom {
+            margin-left:160px;
+            margin-right:160px;
+            color: var(--dark-accent);
+
+            .pagina-info {
+                font-size: 15px;
+                font-style: italic;
+                margin-top:-40px;
+                padding-bottom: 20px;
+            }  
+
+            a, a:visited {
+                color: var(--dark-accent);
+            }
+
+            a:hover {
+                text-decoration-color: var(--color-hover-02);
+            }
+        }
+    }
   
 /* BRONNEN PAGINA. Gebruik ik niet meer op dit moment */
 
