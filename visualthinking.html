@@ -640,10 +640,30 @@
           <summary> Vrijdag 20 november 2026 </summary>
             <p class="project-info"> Sprint 4: Look and Feel | Project: Corporate Identity | Code & Design review </p>
             <h3> Wat heb ik gedaan?</h3>
-              <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint fugiat asperiores perferendis non, 
-              suscipit necessitatibus aut adipisci recusandae obcaecati. Culpa quaerat eius, deleniti fuga vitae soluta quidem tempora iure facilis! </p>
-            <h3> Notes</h3>
-              <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint fugiat asperiores perferendis non.</p>
+              <p> Bij de code & design review heb ik feedback gekregen op mijn website van mijn groepje waar ik de stykeguide mee heb gemaakt. 
+              De feedback staat in een issue en daarop heb ik gereageerd. Ik heb daarna wat aanpassingen gedaan aan de website.</p>
+            <h3> Maak je genoeg gebruik van de gezamenlijke stylesheet?</h3>
+              <p> Ja. De stylesheet is gelinkt in de HTML. Ik gebruik de typografie en de custom properties voor de kleuren.</p>
+            <h3> Benoem twee voorbeelden hoe je gebruik maakt van de cascade.</h3>
+              <p> Ik gebruik de cascade in mijn CSS onder andere op deze manieren:</p>
+              <ol>
+                <li>Ik heb een H2 een class gegeven genaamd .tekenmethodetitel voor de basisstijl. Om te zorgen dat de tekenmethodetitel achtergrond kleur bij elke anders is heb ik deze code gebruikt ".tekenmethodeblok:nth-of-type(1) .tekenmethodetitel ". 
+                De titel zit in de section met class tekenmethodeblok. Met :nth-of-type(1) kies ik het eerste blok, en .tekenmethodetitel maakt het specifieker zodat alleen die titel deze achtergrondkleur krijgt.</li>
+                <li>Ik heb alle categorieën van de tekenmethodes in een grid. De meeste zitten in een a element gezet en de tekstblok en video staat in een div element en deze hebben allemaal de class .onderdeel. Het .onderdeel class heeft een hover state. 
+                De iframe en p-element moeten geen hover hebben dus die hebben naast de .onderdeel class ook nog een .geenhover class. Zodat ik met de :not() pseudo class de elementen met .geenhover kan negeren van de hover stijl. De code op de styling van de hover was dan zo: .onderdeel:hover:not(.geenhover).</li>
+              </ol>
+            <h3> Schrijf drie custom properties op die je gebruikt in je eigen repo vanuit de gezamenlijke stylesheet.</h3>
+              <ol>
+                <li>--dark-accent</li>
+                <li>--color-neutral-normal</li>
+                <li>--color-interactive-light</li>
+              </ol>
+            <h3> Heb je door de code/design review verbeterpunten gevonden voor de gezamenlijke stylesheet? </h3>
+              <p> Nee niet echt. </p>
+            <h3> Maak je genoeg gebruik van de gezamenlijke stylesheet?</h3>
+              <p> Geen</p>
+
+
         </details>
   </section>
 
@@ -651,7 +671,8 @@
   <article>
     <div class="tekstkolom">
         <h2> Sprint 4: Look and Feel - Week 3</h2>
-            <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum praesentium accusantium adipisci numquam aperiam exercitationem ratione sed odio placeat, 
+            <p> (Ik ben de feedback gaan verwerken van de code & design review. Nadat ik het heb gedaan, heb ik de aanpassingen gecommit en gekoppeld aan de issue.)
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum praesentium accusantium adipisci numquam aperiam exercitationem ratione sed odio placeat, 
             amet obcaecati sint iusto ex aut, distinctio veniam ipsa suscipit voluptates. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis placeat inventore distinctio reprehenderit iste ullam, 
             doloremque deleniti quod qui. Magni nulla molestias aperiam beatae est, ut odit asperiores ipsum atque!</p>
     </div>
