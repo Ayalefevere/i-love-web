@@ -289,6 +289,32 @@
         }
     }
 
+/* VRAGENLIJST/ZELFTEST BLOK 2 PAGINA */        
+    .vraag {
+        border-top: 1px solid var(--color-neutral);
+        margin-left: -160px;
+        margin-right: -160px;
+        margin-top: 50px;
+
+        .tekstkolom {
+            margin-left: 160px;
+            margin-right: 160px;
+            color: var(--dark-accent);
+
+            .punten {
+                font-size: 15px;
+                font-weight: bold;
+                margin-top: -40px;
+                padding-bottom: 20px;
+            }  
+
+
+            a, a:visited {
+                color: var(--dark-accent);
+            }
+        }
+    }
+
     /* OEFENPAGINA'S PAGINA */        
     .oefenpagina {
         border-top: 1px solid var(--color-neutral);
